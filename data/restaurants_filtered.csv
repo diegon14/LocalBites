@@ -1,0 +1,516 @@
+name,cuisine,lat,lon,city,street,postcode,state,opening_hours,phone,website
+Ruth's Chris Steak House,american;steak_house,33.6716654,-117.8455678,Irvine,Michelson Drive,92612,CA,,,
+Memphis Cafe,american,33.6768659,-117.8866385,,,,,Tu-We 08:00-21:00; Th-Sa 08:00-22:00; Su 08:00-21:00,+1-714-432-7685,https://www.memphiscafe.com/
+The Cheesecake Factory,american,33.6154152,-117.877442,Newport Beach,Newport Center Drive,92660,CA,Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 10:00-22:00,+1-949-720-8333,https://locations.thecheesecakefactory.com/ca/newport-beach-6.html
+P.F. Chang's,asian,33.615185,-117.8770935,Newport Beach,Newport Center Drive,92660,CA,Mo-Su 11:00-22:00,+1-949-759-9007,https://www.pfchangs.com/locations/us/ca/newport-beach/1145-newport-center-dr/1200-newport.html
+The Melting Pot,fondue,33.6684048,-117.852298,,,,,,,
+Snooty Fox,regional,33.6282008,-117.7257247,Laguna Hills,Lake Forest Drive,92653,CA,,,
+Yard House,american,33.6428852,-117.917576,,,,,,,
+The Old Spaghetti Factory,italian,33.6095651,-117.927776,,,,,,,
+Sandy's,seafood;californian,33.6565551,-118.0021879,Huntington Beach,Pacific Coast Highway,92648,CA,,+1-714-374-7273,
+Duke's,steak_house;seafood;hawaiian,33.656632,-118.0020976,Huntington Beach,Pacific Coast Highway,92648,CA,"Mo 11:30-14:30,17:00-21:00; Tu-Fr 11:30-14:30,17:00-21:30; Sa 11:00-15:00, 16:30-21:30; Su 10:00-14:00, 16:30-21:00",+1-714-374-6446,
+China Palace,chinese;sushi,33.6207332,-117.9245234,,,,,,,
+Tia Juana's,mexican,33.6746863,-117.7578095,,,,,,,
+Sgt. Pepperoni's Pizza Store,pizza,33.6498198,-117.8320399,Irvine,Campus Drive,92612,CA,Mo-Su 11:00-22:00,,
+Taiko Sushi Japanese Restaurant Irvine,sushi,33.6885854,-117.7714855,Irvine,Jeffrey Road,92618,CA,,+1-949-559-7190,https://taikoirvine.com/
+Luna Rosa,italian,33.6973073,-117.828805,Tustin,Park Avenue,92782,,,,https://www.lunarossaristorante.com/
+Zov's,mediterranean,33.734554,-117.7603966,,,,,,,
+La Sirena Grill,mexican,33.7344246,-117.7600882,,,,,,,
+Ayame,japanese,33.7345183,-117.7602062,,,,,,,
+Johnnie's,pizza,33.7342306,-117.7599702,,,,,,,
+Gen Sushi,sushi,33.7233649,-117.7714232,,,,,,,
+Pan of Asia,chinese,33.723492,-117.7716351,,,,,,,
+Round Table Pizza,pizza,33.723454,-117.7715814,,,,,,,
+Niko Niko Sushi,sushi,33.6977239,-117.7408003,,Irvine Boulevard,,,,,
+First Class Pizza,pizza,33.6983397,-117.7409907,,Irvine Boulevard,,,,,
+Jalapeno's,mexican,33.6980966,-117.7409339,,Irvine Boulevard,,,,,
+Asian Tapas,chinese,33.697648,-117.7408728,Irvine,Irvine Boulevard,92620,,,,
+Fish District,seafood,33.6972219,-117.743123,,,,,,,
+Bistro 24,sandwich,33.6749043,-117.8430734,,,,,,,
+Pei Wei,asian,33.6955378,-117.8278073,Tustin,Barranca Parkway,92782,,,,
+Full Moon Sushi,sushi,33.7453163,-117.8181174,,,,,,,
+The Cheesecake Factory,american,33.6510718,-117.746138,,,,,"Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 10:00-22:00",,
+Fanous Mediterranean Grill,mediterranean,33.7215021,-117.8267272,,,,,,,
+Stonefire Grill,american,33.6855462,-117.8113366,,Barranca Parkway,92606,,,,
+Chronic Taco,mexican,33.6636031,-118.0049956,,,,,,,
+BJ's,american,33.6580792,-118.000855,,,,,,+1 714-374-2224,https://www.bjsrestaurants.com/locations/ca/hb-main-st
+Sushi Roku,sushi,33.615465,-117.8748235,Newport Beach,Newport Center Drive,92660,CA,Su-We 11:30-21:00; Th 11:30-21:30; Fr-Sa 11:30-20:30,+1-949-706-3622,https://www.sushiroku.com/locations/newport-beach
+Great Maple,american,33.6155222,-117.8773216,Newport Beach,Newport Center Drive,92660,CA,Mo-Fr 10:30-21:00; Sa 09:00-21:00; Su 09:00-20:00,+1 949-706-8282,https://thegreatmaple.com/
+Que Pasta Italia,italian,33.7165615,-118.038724,,,,,,,http://www.quepastaitalia.com/
+Chihuahua,mexican,33.6152345,-117.9307716,,Newport Boulevard,,,Mo-Su 11:00-22:00,,https://www.chihuahuacerveza.com/taproom
+Francoli Gourmet,italian,33.7874419,-117.8532766,Orange,South Glassell Street,92866,CA,11:00-22:00,+1 714-288-1077,https://www.francoligourmet.com/
+Renata's Cafe Italiano,italian,33.7880321,-117.8511157,Orange,East Chapman Avenue,,CA,,,https://www.renatascafe.com/
+Family Restaurant,mexican,33.7804286,-117.9158001,,,,,,,
+Haus of Pizza,italian,33.7746916,-117.917373,,,,,,,
+L5 Thai Restaurant,thai,33.774792,-117.9172142,,,,,,,
+Mr. Pollo Peruvian Cuisine,peruvian,33.7803973,-117.9154558,,,,,,,
+Panda House,chinese,33.7746861,-117.917659,,,,,,,
+Thai Tangerine,thai,33.7806076,-117.9158024,,,,,,,
+Tokyo Love Sushi Bar,japanese,33.7803948,-117.9153175,,,,,,,
+Natraj's Tandoori,indian,33.7280289,-117.786657,,,,,,,
+Woody's Diner,american,33.6182119,-117.9296134,,Via Lido,,,Mo-Su 07:00-22:00,,https://www.woodysdiners.com
+I Heart Pancakes,breakfast;american;pancake,33.6494299,-117.8324009,Irvine,Campus Drive,92612,,Mo-Su 07:00-26:00,+1-949-418-7810,https://iheartpancakes.com/iheart-irvine
+Fiesta Grill,mexican,33.6677118,-118.0091566,Huntington Beach,17th Street,92648,,10:00-21:00,+1-714-969-7689,
+Krave Asian Fusion Restaurant,asian,33.6806927,-117.8379123,Irvine,Main Street,92614,CA,,,
+BiG AL’S Pizzeria,pizza,33.787751,-117.856203,,,,,,+1-714-363-3663,https://bigalspizzeria.com/
+Chaya,japanese,33.6813812,-117.8853456,,,,,,,
+Hashigo Korean Kitchen,korean,33.6820466,-117.8866653,,,,,,,
+Tandoori India Cuisine,indian,33.6946535,-117.8861544,,,,,,,
+Korea House B.B.Q Buffet,barbecue,33.7869029,-117.9581017,Garden Grove,Brookhurst Street,92840,CA,11:00-22:00,,
+Mastro's Steakhouse,steak_house,33.6896414,-117.882634,,,,,,,https://www.mastrosrestaurants.com/location/mastros-steakhouse-costa-mesa
+Karl Strauss Brewing Company,american,33.6895193,-117.8957235,,,,,Mo-Su 11:30 -23:00,,
+Claim Jumper,american,33.6916459,-117.8871877,,,,,,,
+Ango Tei,sushi,33.6820485,-117.8845863,,,,,,,
+La Rocco's,pizza,33.663751,-118.0052358,,,,,,,
+Bravo Avo,mediterranean,33.6811368,-117.6657508,,,,,,,https://bravoavo.com/
+Rising Sun Chinese Food,chinese,33.6797488,-117.6625983,,,,,,,
+Avila's El Ranchito,mexican,33.6794033,-117.6622708,,,,,,,
+The Rice,sushi,33.6792083,-117.662074,,,,,,,
+Thai Bamboo Bistro,thai,33.6980111,-117.8283407,Irvine,,,CA,,,
+Fast Hotpot,chinese,33.6507461,-117.8387898,Irvine,Campus Drive,92612,CA,,+1-949-336-4733,https://www.fasthotpot.com/
+Eureka!,american,33.6506544,-117.8392235,,,,,,,
+Blaze Pizza,pizza,33.6498111,-117.8391137,,,,,Mo-Su 11:00-22:00,,
+Tacos & Co.,mexican,33.6689102,-117.765082,Irvine,Irvine Center Drive,92618,,,,
+HiroNori Craft Ramen,noodle,33.6687245,-117.7649154,Irvine,Irvine Center Drive,92618,,,,
+SAJJ Mediterranean,mediterranean,33.6685679,-117.764595,Irvine,Irvine Center Drive,92618,CA,11:00-19:30,+1 949 336 4366,https://www.sajjstreeteats.com/location/irvine/
+Hi House,noodle,33.6685253,-117.764535,Irvine,Irvine Center Drive,92618,,,,
+Peppinos,italian,33.6319116,-117.6449359,Mission Viejo,Vista Del Lago # 26,92692,CA,Mo-Th 16:00-21:30; Fr-Su 11:00-21:30,+1-949-859-9556,https://www.peppinosonline.com/locations_missionviejo.html
+Hacienda on the Lake,mexican,33.6322334,-117.6446949,Mission Viejo,Vista Del Lago,92692,CA,"11am-10pm weekdays, 11am-11pm weekend",+1-949-472-8100,https://www.haciendaonthelake.com/dinner-menu/
+Thai Smile,thai,33.6366727,-117.609343,,Aventura,,,00:00-21:00,+1-949-589-6654,https://www.thaismilersm.com/menu.html
+Ritters Steam Kettle Cooking,regional,33.7004645,-117.8876768,,,,,,,
+Cuca's Mexican Food,mexican,33.6807199,-117.6672008,,,,,11:00-20:00,,
+Lamppost Pizza,pizza,33.6370274,-117.6814792,,,,,,,
+Pizza Hut,pizza,33.6359098,-117.682866,Lake Forest,El Toro Road,92630,CA,,+1 949-454-2400,https://locations.pizzahut.com/ca/lake-forest/22481-el-toro-rd
+Empenada Man,mexican,33.6607514,-117.66951,,,,,,,
+Fuji Grill,japanese,33.6618846,-117.6671707,,,,,,,
+Los Cabos Sports Bar & Grill,mexican,33.6617352,-117.6668679,,,,,,,
+The Bagel Shack,bagel;breakfast,33.6181945,-117.7041597,,El Toro Road,92630,,"Mo-We,Fr 05:30-14:30; Th 06:00-14:30; Sa-Su 05:30-15:00",+1 949-305-2034,https://thebagelshack.com/
+Prego,italian,33.698018,-117.828103,,,,,,,
+A Bite of New Jersey,sandwich,33.7805298,-118.0414677,Garden Grove,Lampson Avenue,92845,CA,,,
+Class 302,taiwanese;bubble_tea,33.727773,-117.7862096,,,,,,,
+Casa Del Sol Cucina Mexicana,mexican,33.6981321,-117.827347,,,,,,,
+Com Tam Tran Huy Cap,vietnamese,33.7284452,-117.9203877,Fountain Valley,Harbor Boulevard,92708,,Sa-Su 09:00-21:00; Mo-Fr 10:00-21:00,+1-714-418-1333,
+The Hangout Restaurant & Beach Bar,american;seafood;burger,33.7229213,-118.0410602,Huntington Beach,Bolsa Chica Street,92649,CA,Mo-Su 07:00-23:00,+1-657-204-9306,https://www.thehangoutrestaurant.com/huntington-beach-restaurant/
+Phở Gà Yummy,vietnamese,33.7445827,-117.9629039,Westminster,Bolsa Avenue,92683,CA,,+1-714-531-7788,http://phogayummy.com
+Round Table Pizza,pizza,33.6403776,-117.5946663,Rancho Santa Margarita,El Paseo,92688,CA,,,
+Pizza Hut,pizza,33.7687604,-117.836028,Santa Ana,North Tustin Avenue,92705,CA,,+1 714-834-9090,https://locations.pizzahut.com/ca/santa-ana/2390-n-tustin-ave
+The Crab Cooker,seafood,33.7582034,-117.829491,,,,,,,
+Mission Ranch Market Restaurant,persian,33.6262755,-117.677626,,Los Alisos Boulevard,,,,+1 949-707-5879,https://missionranchmarkets.com/
+All Star Pizza,pizza,33.6293336,-117.6638914,,Los Alisos Boulevard,92691,,Mo-Su 11:00-22:00,+1 949-586-4007,https://www.allstarpizzamv.com/
+Donut Storr,donut,33.6294213,-117.6652376,,Los Alisos Boulevard,,,,,
+Taco Mesa,mexican,33.6288891,-117.6641116,,Los Alisos Boulevard,92691,,Mo-Su 09:00-21:00,,https://www.tacomesa.com/
+donuts,donut,33.6272535,-117.6351351,,,,,,,
+Little Chopsticks,chinese,33.6291313,-117.6639496,,Trabuco Road,92691,,Mo-Su 11:00-21:30,+1 949-380-7888,http://www.little-chopsticks.com
+Manpuku Tokyo BBQ Dining,japanese,33.6798565,-117.893554,Costa Mesa,Baker Street,92626,CA,Mo-Su 17:00-00:00,+1-714-708-3290,
+Thai Garden,thai,33.6366653,-117.5993528,,,,,,,
+Baja Fish Tacos,mexican,33.6542367,-117.6461786,,Santa Margarita Parkway,92691,,,,https://bajafishtacos.com/
+Grill Hut,mediterranean,33.6543134,-117.6463046,,,,,,,https://grillhut.com/
+Yama sushi,sushi;japanese,33.6317868,-117.6450771,,,,,,,http://www.yamasushionthelake.com
+Juliette,fine_dining,33.6580589,-117.8665671,,1000 Bristol Street North,92660,,Mo 11:00-21:00; Tu-Th 11:00-22:00; Fr 11:00-22:30; Sa 17:00-22:30; Su off,+1-949-752-5854,
+Natraj's Tandoori,indian,33.6549453,-117.7779178,Irvine,Quail Hill Parkway,92603,,,,
+Nalu's Hawaiian Fish Grill,hawaiian,33.6550167,-117.7778447,Irvine,Quail Hill Parkway,92603,,,,
+O Fine Japanese Cuisine,japanese,33.655158,-117.7777714,Irvine,Quail Hill Parkway,92603,,,,
+Sharky's Woodfired Mexican Grill,mexican,33.6552429,-117.7777998,Irvine,Quail Hill Parkway,92603,,,,
+Johnny's Real New York Pizza,pizza,33.6552774,-117.7778667,Irvine,Quail Hill Parkway,92603,,,,
+Bánh cuốn Tây Hồ #4,vietnamese,33.7441376,-117.9577832,Westminster,Bolsa Avenue,92683,CA,,+1-714-531-5171,
+Bánh cuốn Tây Hồ #2,vietnamese,33.7443556,-117.9679675,,,,,,,
+Seafood Cove #2,chinese;seafood,33.7452946,-117.968001,Westminster,Bolsa Avenue,92683,CA,08:30-21:00,+1 714-893-1976,https://www.seafoodcove.com/
+Lục Đỉnh Ký #1,vietnamese,33.7446478,-117.957995,Westminster,Bolsa Avenue,92683,CA,,,
+Kobe Bistro,vietnamese;noodle,33.7441543,-117.9572011,Westminster,Bolsa Avenue,92683,CA,,,
+Đệ Nhất Cơm Tấm Thành,vietnamese,33.7442037,-117.9568739,Westminster,Bolsa Avenue,92683,CA,,,
+Tân Hồng Mai,vietnamese,33.744169,-117.9559293,Westminster,Bolsa Avenue,92683,CA,,,
+Z Cafe,vietnamese,33.7452136,-117.9597385,,,,,,,http://www.zcafehouse.com/
+Hồng Mai,vietnamese,33.7459541,-117.9598216,,,,,,,
+Carmelita's,mexican,33.6501256,-117.5831532,,Santa Margarita Parkway,92688,,Mo-Sa 11:30-21:00; Su 10:00-21:00,+1-949-709-7600,http://carmelitaskitchen.com
+The Blind Pig,american;bar_and_grill,33.6498938,-117.5830558,,Santa Margarita Parkway,92688,,Su 11:00-23:00; Tu 09:00-18:00; We-Th 15:00-00:00; Fr 15:00-01:00; Sa 11:00-01:00,+1-949-888-0072,http://theblindpigoc.com
+Chili Chutney Grill,persian;arab,33.6295295,-117.7055388,,,92630,,"Tu-Th,Su 11:30-21:00; Fr-Sa 11:30-22:00",+1 949-859-1778,https://www.chilichutney.com/
+Mountain Mike's,pizza,33.6286435,-117.7044083,Lake Forest,Ridge Route Drive,92630,CA,Su-Th 11:00-21:00; Fr-Sa 11:00-22:00,+1 949-586-4141,https://www.mountainmikespizza.com/locations/lake-forest-ridge-route/?storecode=232
+Thanh Mỹ,vietnamese,33.7451979,-117.9620448,Westminster,Bolsa Avenue,92683,CA,,+1-714-531-9540,
+Tràng Tiền,vietnamese,33.7455994,-117.9615016,,,,,,,
+Cơm tấm Trần Quý Cáp,vietnamese,33.745683,-117.9615177,,,,,,,https://comtamtranquycap.net/
+Hiền Vương Đa Kao,vietnamese,33.7439834,-117.9687159,,,,,,,
+Nhà hàng Văn,vietnamese,33.7575068,-117.9541881,,,,,,,
+Cơm Tấm Thuận Kiều,vietnamese,33.7551185,-117.9543571,Garden Grove,Brookhurst Street,92843,CA,,+1-714-531-4852,
+Phở 79,vietnamese,33.7524445,-117.9557417,Garden Grove,Hazard Avenue,92843,CA,We-Mo 07:00-21:00,+1-714-531-2490,https://www.pho79.com/
+Phở Quang Trung #2,vietnamese,33.7451442,-117.9680586,,,,,,,http://www.phoquangtrung.com/
+Thuận Kiều Noodle & Grill,vietnamese,33.7607829,-117.9568478,,,,,,,
+Quán Vy,vietnamese,33.7609702,-117.9560029,,,,,,,
+Sharky's Woodfired Mexican Gill,mexican,33.6079017,-117.8265687,,,,,,,
+First Class Pizza,pizza,33.6078146,-117.8266116,,,,,,,
+Newport Fusion Sushi,sushi,33.6082071,-117.8268105,,,,,,,
+Tangata At The Bowers Museum,sandwich,33.7632501,-117.8681892,,,,,,,
+Pho Hung Voung,vietnamese,33.735893,-117.8240642,,,,,,,
+Donut King Bakery,donut,33.7359906,-117.8239603,,,,,,,
+Gyu-Kaku,japanese;barbecue,33.7346874,-117.825959,,,,,,,
+Savy Donuts & Smoothie,donut,33.7328586,-117.8268216,,,,,,,
+Sushi Wasabi,sushi,33.7329347,-117.8267444,,,,,,,
+Golden China,chinese,33.7315772,-117.8274634,Tustin,Walnut Avenue,92780,,,,
+Curry Do,japanese,33.7361916,-117.824655,Tustin,Newport Avenue,92780,CA,,+1 714 852 3129,https://www.currydo.com/
+La Pho,vietnamese,33.6543862,-117.7785202,Irvine,Quail Hill Parkway,92603,,,,
+Dosa Palace,indian,33.7353391,-117.8121508,Tustin,Red Hill Avenue,92780,,,,
+Sichuan Impressions,chinese,33.7352403,-117.8122489,Tustin,Red Hill Avenue,92780,,"Mo-Th, Su 11:30-14:45; Mo-Th, Su 17:00-21:30; Fr, Sa 11:30-15:15; Fr, Sa 17:00-21:30",+1-714-506-9070,https://www.sichuanimpression.com
+Seoul Garden BBQ Buffet,korean,33.7348934,-117.8125933,Tustin,Red Hill Avenue,92780,,,,
+Pizza Hut,pizza,33.7279859,-117.8222019,Tustin,Red Hill Avenue,92780,,,,
+Pizza Shack,pizza,33.731837,-117.8179461,Tustin,Red Hill Avenue,92780,,,,
+Habuya,okinawan,33.7315916,-117.8183892,Tustin,Red Hill Avenue,92780,,,,
+Christakis Greek Cuisine,greek,33.7496725,-117.8118093,Tustin,Newport Avenue,,,,,
+Pho Bac Ky,vietnamese,33.7316637,-117.8181187,Tustin,Red Hill Avenue,92780,,,,
+Pei Wei,asian,33.6779799,-117.8624217,,,,,Mo-Su 10:00-19:00,,
+Blaze Pizza,pizza,33.6778365,-117.8624197,,,,,,,
+Javi's,mexican,33.6777446,-117.8624676,,,,,Mo-Fr 05:00-20:30; Sa 05:00-19:00; Su 06:00-20:30,,
+Round Table Pizza,pizza,33.6639719,-117.8570554,Newport Beach,Jamboree Road,92660,CA,"Su-Th 11:00-21:00; Fr,Sa 11:00-21:30",,
+NY Pizza Faktory & Grill,pizza,33.7394662,-117.8202615,,,,,,,
+El Torito,mexican,33.7592391,-117.8279566,,,,,,,
+Din Tai Fung,taiwanese,33.6916918,-117.887843,,,,,Mo-Fr 11:00-21:30; Sa 10:00-21:30; Su 10:00-21:00,,http://dintaifungusa.com/locations_us/#orangecounty
+Kitakata Ramen Ban Nai,ramen;japanese,33.6794785,-117.8937564,Costa Mesa,Baker Street,92626,CA,,+1-714-557-2947,https://ramenbannai.com/
+Meiji Seimen,japanese,33.6798008,-117.9038214,,,,,"Mo-Su 11:30-14:30,17:30-22:00",+1-714-545-5175,
+Izakaya Hachi,japanese,33.681254,-117.8863434,Costa Mesa,Bristol Street,92626,CA,,,http://manpuku.co/en/shoplist/hachi/
+Brodard Chateau,vietnamese,33.7662798,-117.970609,Garden Grove,Trask Avenue,92844,CA,Mo-Th 10:30-21:30; Fr-Sa 10:30-22:00; Su 10:30-21:30,+1-714-899-8273,https://www.brodard.net/home
+Urban Plates,american,33.7263732,-117.7884847,Irvine,Jamboree Road,92602,CA,,,
+Olamendis Mission Viejo,mexican,33.6540517,-117.6458515,Mission Viejo,Santa Margarita Parkway,92691,CA,Mo-Su 10:00-21:00,,
+Taquerias Guadalajara,mexican,33.7481205,-117.8654493,Santa Ana,East 4th Street,92701,,,+1 714 953 3191,
+4th Street Market,american;asian;burger;chicken;chinese;coffee_shop;greek;ice_cream;international;kebab;mexican;pizza;sandwich;seafood;thai,33.7476477,-117.8667466,Santa Ana,East 4th Street,92701,CA,"Mo-Th, Su 11:00-21:00;Fr-Sa 11:00-22:00",,
+Filomena's Italian Kitchen & Market,italian,33.6571815,-117.9019535,Costa Mesa,Newport Boulevard,92627,CA,Tu-Fr 11:30-21:30; Sa 16:30-21:30; Su 16:30-20:30,+1-949-642-3810,https://filomenasoc.com/
+Zinqué,french,33.6192153,-117.9285283,Newport Beach,Via Oporto,92663,CA,Mo-Th 06:30-00:00; Fr 06:30-02:00; Sa 07:00-14:00; Su 06:30-23:00,+1-949-612-7259,https://lezinque.com/
+Kabob Republic,mediterranean,33.6390614,-117.9215405,Costa Mesa,Newport Boulevard,92627,CA,Mo-Su 11:00-20:45,+1-949-764-1778,https://www.kabobrepublic.com/
+Habana,latin_american,33.6774401,-117.8857226,Costa Mesa,Bristol Street,92626,CA,Mo-Th 11:00-01:00; Fr 11:00-02:00; Sa 09:00-02:00; Su 09:00-01:00,+1-714-556-0176,https://www.restauranthabana.com/
+Simply Pho,vietnamese,33.6173135,-117.7056035,Lake Forest,El Toro Road,92630,CA,Mo-Su 10:00-22:00,+1-949-446-8333,https://www.simplyphonoodles.com/
+Zaytoon's Kabob,kebab,33.7899863,-118.0300271,Garden Grove,Valley View Street,92845,CA,,,https://www.zaytoonskabob.com/
+Mika Sushi,sushi,33.789986,-118.0300882,Garden Grove,,92845,CA,"Mo-Su 11:00-15:30, 16:30-21:30",,
+Calipoke,sushi,33.6771778,-117.8854288,,,,,,,
+Seabirds Kitchen,american,33.6774735,-117.8863232,Costa Mesa,Bristol Street,92626,CA,Mo-Fr 11:00-21:00; Sa-Su 10:00-21:00,+1-714-549-2584,https://www.seabirdskitchen.com/
+Yamame,sushi;japanese;sake,33.6501868,-117.582836,,,,,,+1 949-713-1818,
+Pizza E Vino,italian_pizza;italian,33.6502037,-117.5829264,,,,,,+1-949-713-1500,
+The Trough Sandwich Kitchen,sandwich;american;breakfast,33.6501738,-117.5830154,Rancho Santa Margarita,Santa Margarita Parkway,92688,CA,,+1-949-709-5545,http://thetroughoc.com
+Red Robin,burger,33.6950816,-117.8876916,,,,,,,
+Seasons 52,american,33.6899605,-117.887491,Costa Mesa,Bristol Street,92626,CA,Mo-Sa 11:00-22:00; Su 11:00-21:00,+1 714-437-5252,
+Quán Vỹ Dạ,vietnamese,33.7441311,-117.9551969,Westminster,Bolsa Avenue,92683,CA,,,
+Quattro Caffe,italian;=,33.6911096,-117.8894439,,,,,,,
+California Pizza Kitchen,pizza,33.6807577,-117.860848,,,,,Mo-Su 05:00-19:00,,
+Kotobuki,japanese,33.6087763,-117.7022758,Laguna Hills,Avenida De La Carlota,92653,CA,,+1 949 587 0290,
+Chinese Food,chinese,33.7366617,-117.920658,,,,,,,
+Round Table Pizza,pizza,33.71669,-117.935491,,,,,,,
+Sizzler,steak_house,33.7157391,-117.963566,,,,,,,https://sizzler.com/locations/sizzler-fountain-valley-warner/
+Los Sanchez,mexican,33.7738447,-117.9245738,Garden Grove,Garden Grove Boulevard,92843,CA,Mo-Su 09:00-22:00,+1-714-590-9300,
+Mezzet,mediterranean,33.6922333,-117.8925637,,,,,,,
+Noah’s NY Bagels,bagel,33.7132894,-117.8166428,Tustin,Kensington Park Drive,92782,CA,Mo-Fr 05:00-14:00; Sa-Su 08:00-14:00,,
+Koki's,japanese,33.7425092,-117.81645,Tustin,East Main Street,92780,CA,,,
+Tommy's Sushi,sushi,33.7426007,-117.816543,Tustin,East Main Street,92780,CA,,,
+Mi Casa Mexicana,mexican,33.7957455,-117.916567,Anaheim,West Orangewood Avenue,92802,CA,Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-22:00,+1-714-971-0111,https://micasamexicana.com/
+Big Rob's Pizzeria,pizza,33.7668181,-118.0068339,,Goldenwest Street,92683,,Su-Th 11:00-21:00; Fr-Sa 11:00-22:00,+1-714-891-1148,http://www.bigrobspizzaria.com/index.html
+Rance's Chicago Pizza,pizza,33.6804012,-117.917062,,Baker Street,92626,CA,Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-21:00,+1-714-708-2143,https://www.rancespizza.com/location/costa-mesa/
+Round Table Pizza,pizza,33.6753841,-117.9871693,,Beach Boulevard,92648,,,+1-714-963-9877,https://www.roundtablepizza.com/rtp/store.asp?store_num=296
+Las Cazuelas,mexican,33.7474517,-117.8667275,,,,,,,
+IHOP,breakfast;pancake,33.7149316,-117.8850615,Santa Ana,South Bristol Street,92704,CA,24/7,+1 714-617-5337,https://restaurants.ihop.com/en-us/ca/santa-ana/breakfast-2407-s.-bristol-st-3628
+Rachael's Mexican Food,mexican,33.6625675,-117.7069207,Irvine,Alton Parkway,92618,CA,,+1-949-770-5186,
+Ono Hawaiian BBQ,barbecue;hawaiian,33.7180728,-117.8856641,Santa Ana,South Bristol Street,92704,CA,,,
+Oak & Coal,japanese,33.6316797,-117.914196,Costa Mesa,East 17th Street,92627,CA,,+1-949-287-6150,
+Santa Buffet & Grill,american;seafood,33.7150432,-117.884418,Santa Ana,Bristol Street,92704,CA,Mo-Th 11:00-21:00; Fr-Su 11:00-22:00,+1 714-241-1388,
+Taqueria Jalapeños,mexican,33.7157756,-117.8837955,Santa Ana,Warner Ave & S Bristol St,92704,CA,,,
+Market Broiler,seafood,33.7826211,-117.8923995,Orange,City Boulevard West,92868,CA,Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-20:00,+1 714-769-3474,
+Chong Qing Mei Wei Szechuan Restaurant,chinese,33.6898477,-117.7691958,,,,,,,
+Tang Du Restaurant,chinese,33.6898765,-117.7692345,,,,,,,
+101 Noodle Express,chinese,33.6896744,-117.7693107,,,,,,,
+Gina's Pizza,pizza,33.6145169,-117.9317904,,West Balboa Boulevard,,,,,https://ginaspizza.com
+Meet Fresh,taiwanese,33.6874998,-117.833896,,,,,,,
+Gogi,asian,33.650455,-117.8387638,,,,,Mo-Su 23:30-20:30,,
+J Sushi,sushi,33.7830509,-117.867643,,,,,,,
+Din Ho Chinese Cuisine,chinese,33.6475134,-117.687132,,Trabuco Road,92630,,Mo-Th 11:00-21:00; Fr-Sa 11:00-21:30; Su 16:30-21:00,+1 949-951-0427,https://dinhous.com
+Inka Mama's,peruvian,33.6947268,-117.885985,,,,,,,
+Brasa,peruvian,33.6945706,-117.8860226,,,,,,,
+Sankai,japanese,33.6946827,-117.8861111,,,,,,,
+Euro Caffe,sandwich,33.6949104,-117.886337,Santa Ana,South Bristol Street,92704,,,+1 714 662 2222,
+Bella Cuba,cuban,33.6946565,-117.8863277,,,,,,,
+Phở Nguyễn Huệ,vietnamese;noodle,33.745647,-117.9469114,,,,,,,
+Đồng Khánh,vietnamese,33.7452881,-117.9476772,,,,,,,
+Mad Dumplings,chinese,33.6505571,-117.8379002,Irvine,Campus Drive,92612,CA,Mo-Su 11:00-21:00,,https://www.maddumplings.com/
+Fresh Brothers Pizza,pizza,33.6760424,-117.8325496,Irvine,Harvard Avenue,92614,CA,,+1 949-797-9044,
+Pick Up Stix Fresh Asian Flavors,asian,33.6775171,-117.8319576,Irvine,Harvard Avenue,92614,CA,,+1-949-724-1772,https://www.pickupstix.com
+Yu's Garden,asian,33.6893788,-117.769597,,,,,,,
+Chengdu restaurant,asian,33.6895015,-117.7694817,,,,,,,
+Tai Chi Cuisine,chinese,33.689439,-117.770289,Irvine,Walnut Avenue,92604,CA,,,taichicuisine.com
+Tofu King,asian,33.6904589,-117.7703882,Irvine,Walnut Avenue,92604,CA,,,
+Hometown Restaurant,chinese,33.6901978,-117.7706323,Irvine,Walnut Avenue,92604,CA,,,
+Mo-Mo Paradise,japanese;hotpot,33.6900929,-117.7707074,Irvine,Walnut Avenue,92604,CA,,+1-949-390-8788,https://www.momoparadiseusa.com/
+Ameci Pizza & Pasta,pizza,33.6889548,-117.7715499,Irvine,Jeffrey Road,92618,CA,,,
+Kaju Soft Tofu Restaurant,asian,33.6894639,-117.7695496,,,,,,,https://www.facebook.com/pages/Kaju-Soft-Tofu/116262491761740
+A&J Restaurant,thai,33.6881308,-117.7714999,Irvine,Jeffrey Road,92618,CA,,+1 949-786-3585,http://www.aj-restaurant.com/
+Shik Do Rak Restaurant,asian,33.6878299,-117.7715548,Irvine,Jeffrey Road,92618,CA,,,https://shikdorakrestaurant.com/
+Fresh Brothers Pizza,pizza,33.7274626,-117.7864602,,,,,,,
+O Dumpling Bar,chinese,33.789397,-117.8529614,,,,,,,
+Hanano Ramen,japanese,33.7893489,-117.8529622,,,,,,,
+Baba G,mediterranean,33.7879914,-117.8538844,Orange,West Chapman Avenue,92866,CA,,+1-714-538-7180,https://www.byblosorange.com/menu
+Impact Juice Bar,juice,33.7867859,-117.8532785,,,,,,,
+Blaze Pizza,pizza,33.7874427,-117.8529594,,,,,,,
+Growl Juice Pub,juice,33.789143,-117.8532685,,,,,,,
+American Grub,burger,33.7423959,-117.823478,Tustin,El Camino Real,92780,,,,
+Centro Storico Spaghetteria,italian,33.7417362,-117.8235,Tustin,El Camino Real,92780,CA,,,
+International Kitchen,international,33.6644943,-117.8252287,,,,,,,
+Japanese and Korean,japanese;korean,33.6644414,-117.8252098,,,,,,,
+Islands Restaurant,burger;american;beer,33.7308766,-117.9920736,Huntington Beach,Edinger Avenue,92647,CA,Su-Mo 11:00-21:00; Fr-Sa 11:00-22:00,+1-714-897-4619,https://www.islandsrestaurants.com/
+Phoenix Food Boutique,chinese,33.7686678,-117.9380572,Garden Grove,S Euclid Street,92843,CA,Mo-Su 11:00-21:00,+1-714-638-8338,https://phoenixfood.us/
+Saigon Capital Restaurant,vietnamese,33.7451288,-117.9652113,Westminster,Bolsa Avenue,92683,CA,Mo-Su 08:00-22:00,+1-714-775-8512,http://saigon-capital.keeq.io/
+Kim Ky Noodle House,asian,33.744098,-117.9681212,Westminster,Moran Street,92683,CA,"Mo-Sa 08:00-18:00, Su 08:00-17:00",+1-714-898-8141,
+Mountain Mike's,pizza,33.6373503,-117.592283,,,92688,,Mo-Th 11:00-21:00; Fr-Su 11:00-22:00,,
+Poke Bowlz,asian;fish;seafood;sushi,33.6417056,-117.5952142,,,92688,,Mo-Su 11:00-20:00,,
+Scotts Deli,asian;bagel;breakfast;coffee_shop;deli;donut;sandwich,33.6369434,-117.6083304,,,,,Mo-Fr 04:00-15:30; Sa 04:00-14:30; Su 06:00-13:00,,
+La Fiesta,mexican,33.6372958,-117.5919801,,,92688,,,,
+Wan-Fu,asian;chinese,33.6419734,-117.5950602,,Rancho Santa Margarita Pkwy,,,Su 11:00-21:00; Mo-Th 11:00-14:30; Mo-Th 16:00-21:00; Fr 16:00-21:30; Sa 11:00-21:30; Fr 11:00-14:30,+1-949-589-8028,https://wanfuchinabistro.com/
+BCD Tofu House,korean,33.6884772,-117.8339077,,,,,Mo-Su 10:00-02:00,,
+Ameci Pizza & Pasta,pizza,33.6479151,-117.6859718,,Trabuco Road,92630,,"Mo-Th,Su 11:00-21:00; Fr-Sa 11:00-22:00",+1 949-830-6401,https://www.amecipizzaandpasta.com/locations/
+Sabatino's,italian,33.6158861,-117.930024,,,,,,,
+Fly N Fish,seafood,33.6098731,-117.9300593,,,,,,,
+Blaze Pizza,pizza,33.7888628,-117.963493,,,,,,,
+Z Pizza,pizza,33.6177222,-117.9287856,,,,,,,
+Circle Hook Fish Company,seafood,33.6190369,-117.9284046,,,,,,,
+The Original Pancake House,breakfast;pancake,33.7871774,-117.8178048,,,,,,,
+Taco Mesa,mexican,33.7882425,-117.815639,Orange,East Chapman Ave,92869,CA,Mo-Su 7:00-22:00,+1-714-633-3922,https://www.tacomesatortilleria.com/
+Lamppost Pizza,pizza,33.7884967,-117.8338974,,,,,,,
+Tacos Jalisco,mexican,33.7948451,-117.8366356,,,,,,,
+Orange Sushi & Roll,sushi,33.7459258,-117.8243007,,,,,,,
+El Portal de Veracruz,mexican,33.7867645,-117.8049932,,,,,,,
+Wise Guys,pizza,33.7939958,-117.7731058,,,,,,,
+Sutha Thai Kitchen,asian,33.7481115,-117.8084876,Tustin,Irvine Boulevard,92780,CA,,,
+Yogi's Teriyaki,asian,33.7473574,-117.8104502,,,,,,,
+JINYA Ramen Bar,ramen,33.7476395,-117.8107396,,,,,,,
+Buffalo Wild Wings,wings,33.7835168,-117.8935358,Orange,City Boulevard West,92868,CA,"Mo-Fr 00:00-02:00,11:00-24:00; Sa-Su 00:00-02:00,09:00-24:00",+1 714-939-9151,
+Off The Boat Fish Grill,seafood;mediterranean,33.759434,-117.8255129,,,,,,,
+Uoko Japanese Cuisine,sushi,33.7592337,-117.8254992,,,,,,,
+Hambone's,american;barbecue,33.6713387,-117.9533593,,,,,,,
+The Original Pancake House,breakfast;pancake,33.674069,-117.952968,,,,,,,
+Blaze Pizza,pizza,33.7750428,-117.8710662,,,,,,,
+DönerG Mediterranean Grill,turkish,33.7731902,-117.8665009,,,,,,,
+Luna Grill,mediterranean,33.7231316,-117.7898312,,Jamboree Road,,,,,https://lunagrill.com/
+Piadina Italian Market Sandwhiches,sandwich;italian,33.7246762,-117.7933711,Tustin,El Camino Real,92782,CA,Su-We 11:00-19:00; Th-Sa 11:00-20:00,+1 714 417 9660,https://www.italianpiadina.com/locations
+Naan & Kabob,persian,33.7454194,-117.819708,Tustin,East 1st Street,92780,,,,
+Tasty Garden,chinese,33.697314,-117.7990006,,,,,,,
+All That Barbeque,korean;barbecue,33.6968319,-117.7981819,,,,,,,
+Northern Cafe,chinese,33.6510422,-117.8390073,,,,,,,
+Dun Huang,chinese,33.6878781,-117.83424,,,,,,,
+Pho Saigon Pearl,vietnamese,33.6881774,-117.8330468,,,,,,,
+Phở Kim Quy,vietnamese,33.7170986,-117.9367626,,,,,,,
+Breakfast Republic,american;breakfast,33.6504111,-117.8377808,Irvine,Campus Drive,92612,CA,Mo-Su 07:00-15:00,+1-949-379-7177,https://www.breakfastrepublic.com
+YUP DDUK,korean,33.6492967,-117.8322873,Irvine,Campus Drive,92612,CA,,,https://www.yupddukirvine.com
+Kuramoto,japanese,33.7214502,-117.8259594,,,,,,,
+Tierra Mia Pizzaria,pizza,33.7212074,-117.8261173,,,,,,,
+PhởHolic,vietnamese,33.7755305,-117.9944689,Stanton,Beach Boulevard,90680,CA,Mo-Su 08:00-22:00,+1-657-348-9999,
+The Boiling Crab,seafood,33.7611533,-117.9532333,Garden Grove,Brookhurst Street,92843,CA,Mo-Fr 15:00-22:00; Sa-Su 12:00-22:00,+1-714-636-4885,https://theboilingcrab.com/locations/brookhurst/
+Liên Huế 2,vietnamese,33.7609248,-117.9532623,Garden Grove,Brookhurst Street,92843,CA,,,
+Boiling Point,chinese;hotpot,33.7613806,-117.9532299,Garden Grove,Brookhurst Street,92843,CA,Mo-Su 11:00-23:00,+1-714-636-3238,https://www.bpgroupusa.com/
+Thạch Chè Hiển Khánh,vietnamese;dessert,33.7591954,-117.9585422,Garden Grove,Westminster Avenue,92844,CA,Mo-Su 07:30-18:30,+1 714-537-5105,
+HiroNori Craft Ramen,ramen,33.6764661,-117.8558209,Irvine,Michelson Drive,,CA,Mo-Su 11:00-21:00,+1 949-536-5800,https://hironori.com/our-craft-ramen
+Wood Ranch,barbecue,33.6524779,-117.745265,Irvine,Spectrum Center Drive,92618,CA,Mo-Su 11:00-22:00,+1 949-337-4850,https://www.woodranch.com/restaurants/irvine/#wr-menu-anchor
+AnQi Bistro,vietnamese,33.6887758,-117.8882495,Costa Mesa,Bristol Street,92626,CA,Mo-Su 12:00-21:00,+1 714-557-5679,http://www.anqibistro.com/
+Yard House,american,33.6504166,-117.7449695,Irvine,Spectrum Center Drive,92618,CA,,+1 949-753-9373,
+Crimson Coward,chicken,33.6175843,-117.701472,Lake Forest,El Toro Road,92630,CA,Mo - Su 11:00- 22:00,+1-949-215-3269,https://www.crimsoncoward.com/locations/crimson-coward-lake-forest/
+True Food Kitchen,american,33.6149744,-117.873334,Newport Beach,Newport Center Drive,92660,CA,Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 10:00-22:00; Su 10:00-21:00,+1-949-644-2400,https://www.truefoodkitchen.com/locations/newportbeach/
+Fleming's,steak_house,33.6151397,-117.873155,Newport Beach,Newport Center Drive,92660,CA,Mo-Sa 16:00-22:00; Su 16:00-21:00,+1-949-720-9633,https://www.flemingssteakhouse.com/Locations/CA/Newport-Beach
+BCD Tofu House,korean,33.7736169,-117.9662125,Garden Grove,Garden Grove Boulevard,92844,CA,,+1-714-636-5599,https://www.bcdtofuhouse.com/
+Six Alley Noodle And Asian Burger,asian,33.6996474,-117.8650976,,,,,,,
+Gokumi,ramen,33.6996176,-117.8649354,,,,,,,
+949 Grill And Pot Lounge,asian,33.6996637,-117.8647876,,,,,,,
+Masala Craft,indian,33.6994693,-117.8653358,,,,,,,
+Little Pan,asian,33.6996366,-117.8650266,,,,,,,
+Loving Hut,international,33.7884674,-117.922711,,,,,,+1 657-233-5780,https://lovinghut.us/gardengrove/
+Vegan Pizza,pizza,33.7884302,-117.9232832,,,,,,,
+Loving Hut,international,33.7852546,-117.835272,,,,,,+1 714-464-0544,https://lovinghut.us/orange/
+Loving Hut,international,33.6958304,-117.988177,,,,,,+1 714-916-0595,https://lovinghut.us/huntingtonbeach/
+R+D Kitchen,american,33.6173761,-117.8747299,Newport Beach,Newport Center Drive,92660,CA,Mo-Th 11:00-21:30; Fr-Sa 11:00-22:00; Su 11:00-21:00,+1-949-219-0555,https://rd-kitchen.com/locations/newportbeach/
+Poke Tiki,poke,33.7408361,-117.8208321,,,,,,,
+Round Table Pizza,pizza,33.740387,-117.8207535,,,,,,,
+Barolo Cafe,italian,33.7408927,-117.8208329,,,,,,,
+Bazille,american,33.6161374,-117.8781004,Newport Beach,Newport Center Drive,92660,CA,Mo-Th 11:00-18:00; Fr-Sa 11:00-19:00; Su 11:00-18:00,+1-949-610-1610,
+Little Sister,vietnamese,33.6491173,-117.7407347,Irvine,Spectrum Center Drive,92618,CA,11:00-22:00,+1-949-800-8798,https://www.littlesisteroc.com/
+La Casa Garcia,mexican,33.7892457,-117.9138311,,,,,,,
+Masala Craft,indian,33.7892756,-117.9141104,,,,,,,
+Tupelo Junction,southern;american,33.6139071,-117.9283297,,,,,,,
+Sushi Taka,sushi,33.6725293,-117.8467609,,Michelson Drive,,,,,
+Postino,italian,33.6729442,-117.8466178,,,,,,,
+Sessions West Coast Deli,burger;sandwich;american;salad;coffee,33.6772497,-117.7990694,Irvine,Barranca Parkway,92604,CA,Mo-Su 08:00-20:00,+1-949-333-3949,https://sessions-irvine.square.site
+Uoko Sushi & Japanese Cuisine,japanese,33.6296878,-117.7191078,,,,,,,
+Buffalo Wild Wings,wings,33.6291958,-117.718937,,,,,,,
+Diho Sism,thai,33.6299155,-117.7189784,,,,,,,
+Thanh Binh 2,vietnamese,33.6295997,-117.7191467,,,,,,,
+Inka Grill Peruvian Cuisine,peruvian,33.6298396,-117.7190093,,,,,,,
+Beijing Noodle House,chinese,33.6292319,-117.7176863,,,,,,,
+The Krave,burger,33.6296231,-117.7178171,,,,,,,
+De Licia’s,italian,33.6302841,-117.7188497,,,,,,,
+Baja Fish Tacos,mexican,33.6284068,-117.7250994,,,,,,,
+Frank's BBQ & Chinese Cuisine,chinese;barbecue,33.6165809,-117.7063235,Lake Forest,El Toro Road,92630,CA,Mo-Su 11:00-21:30,+1 949-482-1688,
+Thanh Binh Cuisine,vietnamese,33.6185852,-117.7068887,Lake Forest,El Toro Road,92630,CA,Mo-Su 10:00-21:00,+1-949-699-2820,https://www.thanhbinhcuisineca.com/
+Kabab Express,mediterranean,33.6178168,-117.7011991,Lake Forest,El Toro Road,92630,CA,Mo-Th 11:00-21:30; Fr 11:00-22:00; Sa 08:00-22:00; Su 08:00-21:30,+1-949-569-9800,http://kababexpresslakeforest.com/
+La Cochina de Ricardo,mexican,33.6204821,-117.698471,Lake Forest,El Toro Road,92630,CA,11:00-21:00,+1 949-586-1477,https://lacocinadericardo.com/
+Pholicious Noodle Bar,vietnamese,33.6202782,-117.6985898,Lake Forest,El Toro Road,92630,CA,Mo-Su 10:30-20:30,+1 949-345-1282,https://pholiciousnoodlebar.com/
+DK's Dounts,donut,33.7875604,-117.813012,Orange,East Chapman Avenue,92869,CA,Su-Th 04:00-23:00; Fr-Sa 04:00-0:00,+1-714-633-5858,
+La Llorna Birria & Marisco,mexican,33.6211241,-117.7033611,Lake Forest,El Toro Road,92630,CA,,+1 949-446-4432,
+Veggos,sandwich,33.6210774,-117.7033042,Lake Forest,El Toro Road,92630,CA,"Mo-Fr 11:00-19:00; Sa,Su off",+1 949-305-3593,
+Luna Grill,mediterranean;seafood,33.6190736,-117.702947,,El Toro Road,92630,,11:00-21:00,+1 949-770-5862,https://locations.lunagrill.com/luna-grill-9492f0d1fee9/
+Pho Tam Cali Vietnamese Cuisine,vietnamese,33.655512,-117.7013449,Lake Forest,Trabuco Road,92630,CA,Mo-Sa 11:00-20:00; Su 10:00-15:00,+1 949-215-9552,https://photamcali.com/
+Umma's K-BBQ,barbecue;korean,33.6555911,-117.7014958,Lake Forest,Trabuco Road,92630,CA,"Mo-Sa 11:00-15:00, 17:00-20:00; Su off",+1 949-716-2244,https://www.ummaskbbq.com/
+Lupes Mexican Eatery,mexican,33.6556648,-117.7015907,Lake Forest,Trabuco Road,92630,CA,Mo-Su 08:00-21:00,+1 949-446-6011,https://www.eatlupes.com/
+Brizio Pizza,pizza,33.6468264,-117.688687,Lake Forest,Lake Forest Drive,92630,CA,Su-Th 09:00-22:00; Fr-Sa 09:00-23:00,+1 949-951-7333,https://briziopizza.com/
+El Progreso Mexican Restaurant,mexican,33.6206422,-117.7021094,Lake Forest,Raymond Way,92630,CA,"Mo-Su 07:30-21:00 || ""Open most holidays""",,
+Biagio's Italian Restaurant,italian,33.6295175,-117.7052228,,,,,,,
+Okidoki Izakaya,japanese,33.7417873,-117.819307,,,,,,,
+Musashi Sushiya,japanese; sushi,33.6201347,-117.698683,Lake Forest,El Toro Road,92630,CA,"Mo-Th,Su 11:00-21:30; Fr-Sa 11:00-22:00",+1 949-699-2580,https://musashisushiya.com
+Pho Ha Noi,vietnamese; noodles; soup,33.617759,-117.7012254,Lake Forest,El Toro Road,92630,CA,Mo 10:00-15:00; Tu-Su 10:00-20:00,+1 949-855-4300,
+Minato Sushi,sushi,33.620619,-117.701051,Lake Forest,El Toro Road,92630,CA,"""Su-Th 11:30-21:30; Fr-Sa 11:30-22:00""",+1-949-472-4547,
+Sunny Dumpling House,chinese,33.6207605,-117.7021976,Lake Forest,Raymond Way,92630,CA,"Mo off; Tu-Fr 11:00-14:00,16:30-20:00; Sa-Su 11:00-14:30,16:00-20:00",+1 949-446-8838,
+Dave & Buster's,american,33.6508108,-117.7436955,,,,,,,
+Bangkok Taste,thai,33.7746201,-117.8519953,,,,,,,
+Anjappar OC,indian,33.7391033,-117.8206394,,,,,,,
+Ramen Mura,ramen,33.7392601,-117.8204842,,,,,,,
+Kanji Japanese Cuisine,japanese,33.6543193,-117.7028169,,,,,"Mo closed; Tu-Fr 11:00-14:30, 17:00-21:00; Sa,Su 16:00-21:00",,
+Good Time Cafe,chinese,33.6543025,-117.7027163,Lake Forest,Bake Parkway,92630,CA,"Mo-We 11:30-14:30, 16:00-20:00; Th-Su 11:30-20:00",,
+Istanbul Grill,turkish,33.7016409,-117.9342702,Fountain Valley,Newhope Street,92708,CA,11:00-02:00,+1 714-430-1434,https://www.istanbulgrillca.com
+China Garden,chinese,33.7438397,-117.815742,,,,,,,
+Pho So 1,vietnamese,33.6470908,-117.6882743,,Lake Forest Drive,92630,,"Mo,We-Su 10:00-22:00; Tu 10:00-15:00",+1 949-367-5020,https://phoso1lakeforest.com
+Coco's Bakery,american,33.6876615,-117.8341316,,,,,,,
+I Can Barbecue,korean,33.7245885,-117.7937824,,,,,,,
+Three Nine-Nine,vietnamese,33.7276423,-117.7862998,,,,,,,
+Pancakes R Us,breakfast;pancake,33.6351695,-117.9180805,,,,,,,
+Crack Shack,breakfast,33.6356497,-117.9187579,,,,,,,
+Kashiwa Ramen,ramen,33.6804049,-117.9169675,,,,,,,
+Mitasie,chinese,33.7289872,-117.9952859,Huntington Beach,Edinger Avenue,92647,,,,
+Stoney's,pizza,33.7128585,-118.0634332,,,,,,,
+Shanuya,japanese,33.6975081,-117.9545849,,Brookhurst Street,92708,,,+1-714-860-7772,http://shabuyatrstaurant.vom
+The S,barbecue,33.7572379,-117.938065,,North Euclid Street,92843,,,+1-714-867-6057,http://www.thesmokingribs.com
+Freesoulcaffé,breakfast;burger;cake;coffee_shop;pasta;pizza;ramen,33.742238,-117.8227293,,East Main Street,92780,,Mo-Fr 11:00-21:00; Sa 09:00-21:00,+1-714-371-0976,http://freesoulcaffe.com/
+Burattino Brick Oven Pizza,pizza,33.7304341,-117.9992902,Huntington Beach,Edinger Avenue,92647,CA,Su-Th 10:00-21:00,+1 714-584-3454,https://www.burattinopizza.com/
+Hanki Everyday Korean,korean,33.7304329,-117.9994393,Huntington Beach,Edinger Avenue,92647,CA,Mo-Sa 11:00-20:00,+1 714-622-4073,https://hankica.com/
+Kita Jima,sushi;thai,33.7386824,-117.824874,,,,,,,
+Pho Ky Dong,vietnamese,33.7383727,-117.824847,Tustin,El Camino Real,,CA,,,
+Uroko Poke,seafood,33.7385687,-117.8250112,Tustin,El Camino Real,,CA,,,
+Tanakaya,japanese,33.7387888,-117.8248737,,,,,"Tu-Su 23:30-14:00,17:30-20:00",,
+Inka Mama's,peruvian,33.7382482,-117.8227284,,,,,,,
+STACKED,american,33.7298429,-117.9976248,,,92647,,Su-Th 08:00-21:00; Fr-Sa 08:00-22:00,+1 657-845-2100,https://stacked.restaurant/
+Thai Favorite Cuisine,thai;curry,33.7425853,-117.816838,,,,,,,
+Pizza Hut,pizza,33.7415557,-117.8175601,,,,,,,
+La Cocina de Ricardo,mexican,33.6205809,-117.6980651,Lake Forest,El Toro Road,92630,CA,Mo-Su 11:00-21:00,,
+Divine Mediterranean Experience,mediterranean,33.694632,-117.8838272,,,92704,CA,Mo-Su 11:00-21:00,+1-714-852-3362,https://santaana.dvineexperience.com/
+Raku Sushi & Teriyaki,japanese;sushi,33.6946915,-117.8838276,,,92704,CA,Mo-Fr 11:00-21:00; Sa-Su 11:30-21:00,+1-714-689-3295,https://ramenmura.us/
+Kaisen Kaiten,sushi,33.6964161,-117.8842851,,Bristol Street,92704,,Su-Fr 11:30-21:00; Sa 11:30-21:30,+1-714-444-2161,https://kaitensushibar.com/
+Full Moon Sushi,sushi,33.6943998,-117.9554619,Fountain Valley,Ellis Avenue,92708,CA,Mo-Su 12:00-20:30,+1 714-963-3214,
+Simply Pho,vietnamese,33.697511,-117.9547646,,,,,,,
+Inka Cantina,peruvian,33.6975159,-117.955067,,,,,,,
+Wadaya,japanese;noodle;ramen,33.6790959,-117.9082664,Costa Mesa,Fairview Road,92626,CA,"Tu-Su 11:30-14:45, 17:00-21:30",+1 714-760-4811,https://www.wadaya.co
+Vietnam's Pearl Restaurant,noodle;soup;vietnamese,33.6797773,-117.9089338,Costa Mesa,Baker Street,92626,CA,Mo-Fr 10:00-19:30; Sa 11:00-19:00,+1 714-540-2212,http://www.vietnamspearloc.com
+Fortune Cookies,chinese,33.690133,-117.9536461,,,,,,,
+Sushi Plus,sushi,33.6887731,-117.953633,,,,,,,
+Trái Cây Góc Phố,vietnamese,33.7453438,-117.9643899,Westminster,Bolsa Avenue,92683,CA,"Mo-We, Fr 11:30-21:00; Sa-Su 11:30-22:00",+1 714-548-2687,
+Quan Hy,vietnamese,33.745353,-117.9602607,,,,,,,
+Thạch Chè Hiến Khánh,vietnamese;dessert,33.7455006,-117.9608875,Westminster,Bolsa Avenue,92683,CA,,,
+Milligram Coffee and Kitchen,breakfast;coffee_shop,33.6350283,-117.9171357,Costa Mesa,East 17th Street,92627,CA,Sa-Mo 07:30-17:00; Tu-Fr 07:30-21:00,+1 949-612-7272,https://www.milligramcoffeeandkitchen.com/
+The Pizza Press,pizza,33.6416555,-117.5950072,,Rancho Santa Margarita Pkwy,,,"Mo-Th, Sa, Su 11:00-21:00; Fr 11:00-22:00",+1-949-635-8155,https://thepizzapress.com/
+CAVA,mediterranean,33.6851815,-117.8106526,,,,,,,
+Mangia Mangia,italian,33.7284676,-118.0071477,,,,,,,
+Value Pizza,pizza,33.7746926,-117.9457062,Garden Grove,Nelson Street,92840,CA,,,
+King Huarache,mexican,33.774825,-117.94571,Garden Grove,nel,92840,ca,,+1-714-591-5330,https://kinghuaracheca.com/
+Real Thai Food,thai,33.7881735,-117.9669385,Garden Grove,Chapman Avenue,92841,CA,,,
+Pho Hoan Pasteur,vietnamese,33.7898327,-117.9638996,Garden Grove,Chapman Avenue,92841,CA,,,
+Kyotori Japanese Restaurant,japanese,33.7898136,-117.9619689,Garden Grove,Chapman Avenue,92841,CA,,,
+S365 Veggie,vietnamese;korean,33.7898796,-117.9621113,Garden Grove,Chapman Avenue,92841,CA,,,
+Gà Bistro,vietnamese,33.772157,-117.9555102,Garden Grove,Brookhurst Street,92843,CA,,,
+Kaye's Kitchen,breakfast,33.7748346,-117.9411928,Garden Grove,Main Street,92840,CA,,,
+Dorada Restaurant & Bakery,mexican;bakery,33.7740621,-117.9310046,Garden Grove,Garden Grove Boulevard,92843,CA,,,
+Chuck E. Cheese,pizza,33.7729251,-117.9215736,Garden Grove,Harbor Boulevard,92843,CA,,,
+Dolan's Uyghur Cuisine,chinese;mediterranean;uyghur,33.7066256,-117.7877189,Irvine,Culver Drive,92604,CA,11:00-21:00,+1 949-299-2878,https://www.dolansusa.com
+Oc & Lau Restaurant Bar,seafood;vietnamese,33.7581149,-117.9564868,Garden Grove,Westminster Avenue,92844,CA,"Mo-Tu, Th, Su 10:00-22:00; Fr-Sa 10:00-23:00",+1 714-583-8100,
+Bosscat Kitchen and Libations,american,33.6792419,-117.8533846,Irvine,Von Karman Avenue,92612,CA,"Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 10:00-14:30, 15:00-23:00; Su 10:00-14:30, 15:30-21:00",+1 949-333-0917,https://bosscatkitchen.com/irvine
+Kaju Soft Tofu Restaurant,korean,33.774536,-117.9772495,Garden Grove,Garden Grove Boulevard,92844,CA,Mo-Su 11:00-22:30,+1 714-636-2849,https://www.kajusofttofu.net/
+Denny's,american,33.7744677,-117.9923192,,,,,24/7,,
+Nguyen's Kitchen,vietnamese,33.6964061,-117.9187705,,,,,,,
+Tommy Pastrami,sandwich,33.6967515,-117.9187747,,,,,,,
+Cafe Sevilla,spanish,33.6421279,-117.91858,,,,,,,
+JA Jiaozi Authentic Dumplings,dumplings;chinese,33.7233183,-117.7896646,Irvine,Jamboree Road,92602,CA,Mo-Th 11:30-20:30; Fr 11:30-21:00; Sa 11:00-21:00; Su 11:00-20:30,+1 714-786-8999,https://www.jajiaozi.com
+Garlic and Chives,vietnamese,33.7585267,-117.9567911,Garden Grove,Westminster Avenue,92844,CA,,+1 714-591-5196,
+Fogo de Chão,brazilian;steak_house,33.7305224,-117.9898893,,,,,,,https://fogodechao.com/
+Solita Tacos and Margaritas,mexican,33.731018,-117.9957137,Huntington Beach,Edinger Avenue,92647,CA,,,https://solitatacos.com/
+Lakeside Chinese Cuisine,chinese,33.637791,-117.6082438,,,,,,,
+Mimi's Café,diner,33.6947935,-117.9546527,,,,,,,https://www.mimiscafe.com/lunch-dinner/
+Fortune Cookie (Chinese) Restaurant,chinese,33.6901115,-117.9535777,,Brookhurst Street,,,,,
+Star Leaf Tea & Asian Kitchen,asian,33.7891552,-117.852877,,North Glassell Street,92866,,"Tu-Th 17:00-21:00; Sa-Su 10:00-15:00, 17:00-22:00; Fr 17:00-22:00",+1 714-790-4060,https://www.teamodernchinese.com/
+Noodle St,chinese;noodles,33.7232799,-117.771335,,Irvine Boulevard,92602,,Mo-Sa 11:00-22:00; Su 11:00-21:00,+1 714-730-8460,https://noodlestusa.com
+Latte Da Bagelry and Grill,cafe;breakfast,33.6484933,-117.5762785,Trabuco Canyon,Plano Trabuco Road,92679,CA,,,
+Orange Curry 2,indian,33.7147199,-118.0082277,,Warner Avenue,92647,,Mo-Su 10:00-22:00,+1-714-596-0995,http://orangecurry-ca.com
+Sabroso! Mexican Grill,mexican,33.7727632,-117.9208422,,Harbor Boulevard,91843,,Mo-We 11:00-20:00; Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 10:00-21:00,+1 714-537-7080,https://www.sabrosomexicangrill.com
+Brava Cucina,italian,33.792203,-117.76404,Orange,East Chapman Avenue,92869,CA,Tu-Su 16:00-21:00,+1-714-771-2907,https://bravacucina.com/
+Chen's Panda,chinese,33.7921046,-117.7638414,Orange,East Chapman Avenue,92869,CA,"Mo-Fr 11:30-20:30; Tu off; Sa,Su 12:00-20:30",+1-714-288-8787,
+Cava,mediterranean,33.6982003,-117.741147,Irvine,Irvine Boulevard,92620,CA,Mo-Su 10:45-22:00,+1-949-490-6084,https://cava.com/locations/woodbury-town-center-ca
+Marble Steakhouse & Grille,steak_house,33.6983424,-117.7392204,Irvine,Irvine Boulevard,92620,CA,Su-Fr 11:00-22:00; Sa 11:00-23:00,+1-949-316-4405,
+Aloha Stacks,breakfast;lunch;hawaiian,33.6507959,-117.6451454,Mission Viejo,Santa Margarita Parkway,92691,CA,06:30-14:00,+1 949-243-0066,http://www.alohastacks.com/
+Botan Sushi,sushi,33.6496429,-117.8321808,Irvine,Campus Drive,92612,CA,Mo-Su 11:30-23:00,,
+My Pho,vietnamese,33.7872059,-117.8168892,,,,,,,
+Panda Mongolian BBQ,barbecue,33.7875392,-117.8152879,,,,,,,
+Poki Ya,japanese,33.7871084,-117.8150008,,,,,,,
+Orange Blossom,chinese,33.7873754,-117.8124834,,,,,,,
+Restaurante Don Jose,mexican,33.7872892,-117.8123229,,,,,,,
+Yum Dumpling,chinese,33.7873776,-117.8117552,,,,,,,
+Ostioneria Bahia,mexican,33.7883392,-117.8061527,,,,,,,
+Emporio Sushi and Seafood,seafood,33.7868183,-117.8061728,,,,,,,
+Butaton Ramen,ramen,33.7877511,-117.8525222,Orange,Plaza Square,92866,CA,,,
+O SEA | seafood for thought,seafood,33.7872963,-117.8528429,Orange,South Glassell Street,,CA,,,
+Tabu Shabu,japanese,33.7872502,-117.8528439,Orange,South Glassell Street,,CA,,,
+Snooze,breakfast,33.7877177,-117.8551077,,,,,,,
+The Taco Stand,mexican,33.7877418,-117.8550207,,,,,,,
+Wazabi Sushi - Orange,sushi,33.7875079,-117.8551321,,,,,,,
+Tacos Madre,mexican,33.668922,-117.919621,Costa Mesa,Harbor Boulevard,92626,CA,Mo-Sa 10:00-22:00; Su 10:00-23:00,+1-657-247-0012,https://tacosmadrerest.com/
+California Pizza Kitchen,pizza,33.6522883,-117.7457328,,,,,,,
+Kalbi Social Club,korean,33.6520116,-117.7463036,,,,,,+1-949-418-7072,
+Fogo de Chão,brazilian;steak_house,33.6502715,-117.7446195,,,,,,+1-949-398-1500,
+Niko Niko Sushi,sushi,33.6566337,-117.9186502,,,,,,,
+Chuck E. Cheese,pizza,33.6585099,-117.9183252,,,,,,,
+Sweet Greens,salad,33.6501573,-117.7418085,,,,,,,
+Hummus Republic,mediterranean,33.7327261,-117.9924541,,,,,,,
+Kabuki Japanese Restaurant,japanese,33.7331777,-117.9928849,,,,,,,
+Curry Pizza House,pizza,33.7000862,-117.8282102,,,,,07:00-22:00,,
+Rakkan Ramen,ramen,33.6977277,-117.8281291,,,,,,,
+Descano,mexican,33.6728832,-117.9212658,,,,,,,
+Gina’s Pizza,pizza,33.6717854,-117.9197654,Costa Mesa,Harbor Boulevard,92626,CA,Su-Th 11:00-21:00; Fr-Sa 11:00-21:30,+1 949-434-1311,https://www.ginaspizza.com
+Broken Yolk,breakfast,33.6720888,-117.9212681,,,,,"Mo-Fr 07:00-14:00; Sa,Su 07:00-15:00",,
+Amorelia Mexican Cafe,mexican,33.6544702,-117.9174319,,,,,,,
+Kaphrao Express,thai,33.6555571,-117.9186131,,,,,,,
+Pizza Hut,pizza,33.6723139,-117.9185326,,,,,,,
+Mokkoji Sbau Shabu Bar,japanese,33.6729583,-117.921373,,,,,,,
+California Fish Grill,seafood,33.6715244,-117.9197597,,,,,,,
+Bonchon Chicken,chicken;korean;sushi,33.6736351,-117.9210465,,,,,,,
+OEB Breakfast Company,breakfast,33.6289154,-117.9061295,,,,,,,
+Boiling Point,oriental,33.7073843,-117.7826036,,Culver Drive,,,,,http://boilingpoint.com
+Ghiền Bún Bò,vietnamese,33.7453425,-117.9644534,,Bolsa Avenue,92683,,Fr-We 09:00-21:00,,
+Ootoro Bar,sushi,33.7132093,-117.8168273,Tustin,Kensington Park Drive,,CA,"Tu,Th 11:30-14:00,17:30-21:30; Fr-Sa 11:30-14:00,17:30-22:30",,
+Shancheng Lameizi Hotpot,chinese,33.7079489,-117.7819702,,,,,,,
+Shin Sen Gumi Hakata Ramen,japanese;ramen,33.6960627,-117.9546595,,Brookhurst Street,92708,,"Mo-Fr 11:00-15:00, 18:00-23:00; Sa-Su 11:00-23:00",+1 714-962-8971,https://shinsengumigroup.com/restaurants/shin-sen-gumi-hakata-ramen-fountain-valley/
+Viet Foods,vietnamese,33.7591392,-117.9600724,,Westminster Avenue,92844,,,,
+Capital Seafood,asian,33.6493173,-117.7433333,,,,,,,
+Le Shrimp Noodle Bar,asian,33.6512082,-117.7428153,,,,,,,
+Pho Saigon Pearl,asian,33.6512787,-117.7428518,,,,,,,
+The Dive Oyster Bar,seafood,33.651507,-117.7457226,,,,,,,
+Silverlake Ramen,ramen,33.6514331,-117.7457555,,,,,,,
+Umami Burger,burger,33.6521189,-117.7463153,,,,,,,
+Paradise Biryani Pointe,indian,33.6484934,-117.7412979,,,,,,,
+Robata Wasa,asian,33.6486428,-117.7411607,,,,,,,
+Din Tai Fung,taiwanese,33.6483875,-117.7418741,,,,,,,
+Mustard Cafe,american,33.6082147,-117.8268938,,,,,Mo-Fr 08:00-17:00; Su 08:00-15:00,,
+Trendz Street Cocina,mexican,33.7481721,-117.8660438,Santa Ana,East 4th Street,92701-4688,CA,"Mo 11:00-14:00; Fr-Sa 11:00-21:00; Su,Tu,We,Th 11:00-20:00",,
+Terra Sushi,sushi,33.6539861,-117.6472603,,,,,,,
+Sushi Boom,sushi,33.7880063,-117.8230387,,East Chapman Avenue,,,,+1-714-771-3095,
+Friends Cafe,american;breakfast,33.7602579,-117.8278971,Tustin,East 17th Street,,CA,,,
+Thai Chaiyo Tustin,thai,33.7589165,-117.8248935,Tustin,East 17th Street,,CA,,,
+Capital Noodle Bar,chinese,33.6841323,-117.8117841,,,,,Mo-Su 10:00-21:00,+1 949 651 8088,https://noodle-irvine.capital-seafood.com/
+Inchin’s Bamboo Garden,asian,33.6837272,-117.8112199,,,,,,+1 949 679 6813,https://bamboo-gardens.com/inchins-bamboo-garden-locations/
+Sole Toscano Italian Cafe,italian,33.684208,-117.8119717,,,,,Mo-Su 10:00-21:00,+1 949 988 7474,https://www.soletoscanocafe.com/
+Rose Cafe,american,33.6620207,-117.6668894,,Lake Forest Drive,,,"Tu 19:00-23:00;We-Th 10:00-15:00,19:00-23:00;Fr 10:00-15:00,19:00-00:00;Sa 08:00-15:00,19:00-00:00;Su 08:00-15:00,19:00-23:00;Mo off",+19493347288,https://www.rosecafelakeforest.com/
+Haus Of Pizza,italian,33.674041,-117.9206385,Costa Mesa,Adams Avenue,92626,CA,,,
+Sushi Sho,sushi,33.6569522,-117.9083884,,,,,,,
+Tacos Ayutla Oaxaca,mexican,33.7101905,-117.8676684,,South Main Street,,,Su-Fr 19:00-02:00; Sa 19:00-3:00,,
+Dino's,italian,33.7599505,-118.0181167,,,,,,,
+Lupita's Restaurant,salvadorian; mexican,33.6537565,-117.9185735,,,,,,,
+Katsuyaki,japanese,33.6537529,-117.9188521,,,,,,,
+Vientiane Restaurant,vietnamese,33.7589069,-117.9498636,,,,,,,
+Lao & Thai Food,lao; thai,33.7589026,-117.9499194,,,,,,,
+Pho 54,vietnamese,33.759347,-117.9503048,,,,,,,
+Lac Viet Concepts,vietnamese,33.7580515,-117.9543854,,,,,,,
+Burger Skillet,american,33.6437209,-117.9187541,,,,,,,
+Breakfast Republic,breakfast,33.6307042,-117.9115759,Costa Mesa,East 17th Street,,CA,,+1-949-691-3055,
+MaDee Thai Kitchen,thai,33.6301025,-117.9118418,,,,,,,
+Il Dolce,italian,33.6436225,-117.9187363,,,,,,,
