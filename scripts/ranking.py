@@ -27,7 +27,7 @@ def load_data(csv_file):
             restaurants.append(row)
     return restaurants
 
-def rank_restuarants(restaurants, user_lat, user_lon, current_time=None, cuisine=None):
+def rank_restaurants(restaurants, user_lat, user_lon, current_time=None, cuisine=None):
     ranked_restaurants = []
     for r in restaurants:
         dist = distance_in_miles((user_lat, user_lon), (r["lat"], r["lon"]))
@@ -42,5 +42,5 @@ def rank_restuarants(restaurants, user_lat, user_lon, current_time=None, cuisine
 
 if __name__ == "__main__":
     restaurants = load_data("data/restaurants_filtered.csv")
-    results = rank_restuarants(restaurants, 33.64931, -117.84638) # uci coordinates for testing
+    results = rank_restaurants(restaurants, 33.64931, -117.84638) # uci coordinates for testing
     print(results)
