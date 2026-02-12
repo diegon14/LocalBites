@@ -27,7 +27,24 @@ def load_data(csv_file):
             restaurants.append(row)
     return restaurants
 
-def rank_restaurants(restaurants, user_lat, user_lon, current_time=None, cuisine=None):
+def filter_by_cuisine(ranked_restaurants, cuisine):
+    """
+    ranked_restaurants: list of (restaurant_dict, dist)
+    cuisine: optional string
+    """
+    if not cuisine:
+        return ranked_restaurants
+
+    cuisine_lower = cuisine.strip().lower()
+    filtered = []
+    for r, dist in ranked_restaurants:
+        c = (r.get("cuisine") or "").lower()
+        # partial match so "mex" can match "Mexican", etc.
+        if cuisine_lower in c:
+            filtered.append((r, dist))
+    return filtered
+
+def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, current_time=None):
     ranked_restaurants = []
     for r in restaurants:
         dist = distance_in_miles((user_lat, user_lon), (r["lat"], r["lon"]))
@@ -37,6 +54,10 @@ def rank_restaurants(restaurants, user_lat, user_lon, current_time=None, cuisine
 
         # weighted score based on: distance, and cuisine preference
     ranked_restaurants.sort(key=lambda x: x[1])
+
+    # cuisine filtering
+    ranked_restaurants = filter_by_cuisine(ranked_restaurants, cuisine)
+    
     return ranked_restaurants[:15]
         
 
