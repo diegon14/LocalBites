@@ -118,7 +118,7 @@ export default function PersonalizationScreen() {
           {/* Cuisine */}
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>Cuisines</Text>
-            {/* <Text style={styles.helper}>Pick at least one</Text> */}
+            <Text style={styles.helper}>*Optional</Text>
 
             <View style={styles.chipsWrap}>
               {CUISINES.map((c) => {
