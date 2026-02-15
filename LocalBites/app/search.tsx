@@ -123,7 +123,7 @@ export default function SearchScreen() {
           <TextInput
             value={query}
             onChangeText={setQuery}
-            placeholder="Search tacos, rame, thai, boba..."
+            placeholder="Search tacos, ramen, thai, boba..."
             returnKeyType="search"
             onSubmitEditing={() => runSearch()}
             style={styles.searchInput}
@@ -135,7 +135,7 @@ export default function SearchScreen() {
 
         <ScrollView contentContainerStyle={styles.scrollContent}>
           {/* Quick suggestions */}
-          <Text style={styles.sectionTitle}>QQuick picks</Text>
+          <Text style={styles.sectionTitle}>Quick picks</Text>
           <View style={styles.chipsWrap}>
             {QUICK_SUGGESTIONS.map((s) => (
               <Pressable
