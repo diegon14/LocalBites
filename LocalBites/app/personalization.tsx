@@ -30,7 +30,7 @@ export default function PersonalizationScreen() {
   const [saving, setSaving] = useState(false);
 
   const canContinue = useMemo(
-    () => selectedCusisines.length > 0 && !saving,
+    () => selectedCusisines.length >= 0 && !saving,
     [selectedCusisines, saving],
   );
 
@@ -118,7 +118,7 @@ export default function PersonalizationScreen() {
           {/* Cuisine */}
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>Cuisines</Text>
-            <Text style={styles.helper}>Pick at least one</Text>
+            {/* <Text style={styles.helper}>Pick at least one</Text> */}
 
             <View style={styles.chipsWrap}>
               {CUISINES.map((c) => {
