@@ -1,6 +1,37 @@
 import csv 
 from datetime import datetime
 from geopy import distance
+import re
+
+def tokenize(text: str):
+    """Lowercase, split into alphanumeric tokens."""
+    if not text:
+        return []
+    return re.findall(r"[a-z0-9]+", text.lower())
+
+def relevance_score(restaurant: dict, query_tokens: list[str]) -> int:
+    """
+    Simple scoring:
+    - Name match is strong
+    - Cuisine match is weaker
+    - Multiple tokens accumulate
+    """
+    if not query_tokens:
+        return 0
+
+    name_tokens = set(tokenize(restaurant.get("name", "")))
+    cuisine_tokens = set(tokenize(restaurant.get("cuisine", "")))
+
+    score = 0
+    for t in query_tokens:
+        if t in name_tokens:
+            score += 10
+        if t in cuisine_tokens:
+            score += 3
+
+    return score
+
+
 
 def distance_in_miles(point1, point2):
     # given two points (lat, lon), returns the distance of the two points in miles
@@ -44,21 +75,35 @@ def filter_by_cuisine(ranked_restaurants, cuisine):
             filtered.append((r, dist))
     return filtered
 
-def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, current_time=None):
+def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, q=None, current_time=None):
+    query_tokens = tokenize(q)
+
     ranked_restaurants = []
     for r in restaurants:
         dist = distance_in_miles((user_lat, user_lon), (r["lat"], r["lon"]))
-        ranked_restaurants.append((r, dist))
+        score = relevance_score(r, query_tokens)
+        ranked_restaurants.append((r, dist, score))
         # to be implemented
         # if restuarant not open, do not include in ranking (not a valid choice for lunch
 
-        # weighted score based on: distance, and cuisine preference
-    ranked_restaurants.sort(key=lambda x: x[1])
+    # weighted score based on: distance, and cuisine preference
+    # Filter by cuisine AFTER computing distance/score
+    if cuisine:
+        cuisine_lower = cuisine.strip().lower()
+        ranked_restaurants = [
+            (r, dist, score)
+            for (r, dist, score) in ranked_restaurants
+            if cuisine_lower in (r.get("cuisine") or "").lower()
+        ]
 
-    # cuisine filtering
-    ranked_restaurants = filter_by_cuisine(ranked_restaurants, cuisine)
+    # If q is provided, sort by (score desc, distance asc). Otherwise distance only.
+    if query_tokens:
+        ranked_restaurants.sort(key=lambda x: (-x[2], x[1]))
+    else:
+        ranked_restaurants.sort(key=lambda x: x[1])
     
-    return ranked_restaurants[:15]
+    # Return (restaurant, dist) pairs to match api.py format. hides score
+    return [(r, dist) for (r, dist, score) in ranked_restaurants[:15]]
         
 
 if __name__ == "__main__":

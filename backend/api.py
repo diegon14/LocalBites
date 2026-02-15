@@ -30,6 +30,7 @@ def recommend():
     lat = data["lat"]
     lon = data["lon"]
     cuisine = data.get("cuisine", None)
+    q = data.get("q")
 
     restaurants = load_data("data/restaurants_filtered.csv")
 
@@ -37,7 +38,8 @@ def recommend():
         restaurants,
         lat,
         lon,
-        cuisine=cuisine
+        cuisine=cuisine,
+        q=q
     )
 
     formatted = []
