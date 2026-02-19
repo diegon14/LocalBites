@@ -55,6 +55,7 @@ def load_data(csv_file):
         for row in reader:
             row["lat"] = float(row["lat"])
             row["lon"] = float(row["lon"])
+            row["price"] = int(row["price"])
             restaurants.append(row)
     return restaurants
 
@@ -107,6 +108,6 @@ def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, q=None, curr
         
 
 if __name__ == "__main__":
-    restaurants = load_data("data/restaurants_filtered.csv")
+    restaurants = load_data("data/new_restaurant_data.csv")
     results = rank_restaurants(restaurants, 33.64931, -117.84638) # uci coordinates for testing
     print(results)
