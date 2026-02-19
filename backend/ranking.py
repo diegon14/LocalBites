@@ -76,12 +76,17 @@ def filter_by_cuisine(ranked_restaurants, cuisine):
             filtered.append((r, dist))
     return filtered
 
-def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, q=None, current_time=None):
+def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, q=None, current_time=None, max_distance_miles=None):
     query_tokens = tokenize(q)
 
     ranked_restaurants = []
     for r in restaurants:
         dist = distance_in_miles((user_lat, user_lon), (r["lat"], r["lon"]))
+
+        # filter by max_distance before computing score to prevent unnecessary computation
+        if max_distance_miles and dist > max_distance_miles:
+            continue
+
         score = relevance_score(r, query_tokens)
         ranked_restaurants.append((r, dist, score))
         # to be implemented
@@ -109,5 +114,5 @@ def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, q=None, curr
 
 if __name__ == "__main__":
     restaurants = load_data("data/new_restaurant_data.csv")
-    results = rank_restaurants(restaurants, 33.64931, -117.84638) # uci coordinates for testing
+    results = rank_restaurants(restaurants, 33.64931, -117.84638, max_distance_miles=1) # uci coordinates for testing
     print(results)
