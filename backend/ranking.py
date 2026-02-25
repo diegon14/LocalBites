@@ -31,8 +31,6 @@ def relevance_score(restaurant: dict, query_tokens: list[str]) -> int:
 
     return score
 
-
-
 def distance_in_miles(point1, point2):
     # given two points (lat, lon), returns the distance of the two points in miles
     return distance.distance(point1, point2).miles
