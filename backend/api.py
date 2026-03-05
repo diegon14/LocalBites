@@ -32,7 +32,7 @@ def recommend():
     cuisine = data.get("cuisine", None)
     q = data.get("q")
 
-    restaurants = load_data("data/restaurants_filtered.csv")
+    restaurants = load_data("data/new_restaurant_data.csv")
 
     results = rank_restaurants(
         restaurants,
@@ -46,6 +46,8 @@ def recommend():
     for r, dist in results:
         formatted.append({
             "name": r["name"],
+            "lat": r["lat"],
+            "lon": r["lon"],
             "cuisine": r.get("cuisine"),
             "distance_miles": round(dist, 2),
         })
