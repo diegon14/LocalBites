@@ -36,13 +36,10 @@ def distance_in_miles(point1, point2):
     return distance.distance(point1, point2).miles
 
 def is_open(hours, current_time):
-    # to be implemented later
+    # TODO
     # parse time from csv to datetime and check 
     # if opening hour fall into current time
-    if not hours:
-        return True
-    
-    return False
+    raise NotImplementedError
 
 def load_data(csv_file):
     # takes in restaruant csv, cast coordinates to floats
@@ -76,22 +73,22 @@ def filter_by_cuisine(ranked_restaurants, cuisine):
 
 def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, q=None, current_time=None, max_distance_miles=None):
     query_tokens = tokenize(q)
-
     ranked_restaurants = []
-    for r in restaurants:
-        dist = distance_in_miles((user_lat, user_lon), (r["lat"], r["lon"]))
 
+    for r in restaurants:
         # filter by max_distance before computing score to prevent unnecessary computation
+        dist = distance_in_miles((user_lat, user_lon), (r["lat"], r["lon"]))
         if max_distance_miles and dist > max_distance_miles:
             continue
 
+        # TODO if restuarant not open, do not include in ranking (not a valid choice for lunch)
+    
         score = relevance_score(r, query_tokens)
         ranked_restaurants.append((r, dist, score))
-        # to be implemented
-        # if restuarant not open, do not include in ranking (not a valid choice for lunch
 
     # weighted score based on: distance, and cuisine preference
     # Filter by cuisine AFTER computing distance/score
+    # TODO remove cuisine filter and inclue cuisine in revelance scoring
     if cuisine:
         cuisine_lower = cuisine.strip().lower()
         ranked_restaurants = [
