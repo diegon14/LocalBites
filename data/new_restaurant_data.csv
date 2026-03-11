@@ -418,7 +418,7 @@ Dolan's Uyghur Cuisine,chinese;mediterranean;uyghur,33.7066256,-117.7877189,Irvi
 Oc & Lau Restaurant Bar,seafood;vietnamese,33.7581149,-117.9564868,Garden Grove,Westminster Avenue,92844,CA,Mo-Tu 10:00-22:00; Th-Su 10:00-23:00,+1 714-583-8100,,2
 Bosscat Kitchen and Libations,american,33.6792419,-117.8533846,Irvine,Von Karman Avenue,92612,CA,Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 10:00-23:00; Su 10:00-21:00,+1 949-333-0917,https://bosscatkitchen.com/irvine,3
 Kaju Soft Tofu Restaurant,korean,33.774536,-117.9772495,Garden Grove,Garden Grove Boulevard,92844,CA,Mo-Su 11:00-22:30,+1 714-636-2849,https://www.kajusofttofu.net/,2
-Denny's,american,33.7744677,-117.9923192,,,,,24/7,,,1
+Denny's,american,33.7744677,-117.9923192,,,,,,,,1
 Nguyen's Kitchen,vietnamese,33.6964061,-117.9187705,,,,,,,,2
 Tommy Pastrami,sandwich,33.6967515,-117.9187747,,,,,,,,2
 Cafe Sevilla,spanish,33.6421279,-117.91858,,,,,,,,2
@@ -502,7 +502,7 @@ Sole Toscano Italian Cafe,italian,33.684208,-117.8119717,,,,,Mo-Su 10:00-21:00,+
 Rose Cafe,american,33.6620207,-117.6668894,,Lake Forest Drive,,,Tu 19:00-23:00; We-Th 10:00-23:00; Fr 10:00-23:59; Sa 08:00-23:59; Su 08:00-23:00,+19493347288,https://www.rosecafelakeforest.com/,2
 Haus Of Pizza,italian,33.674041,-117.9206385,Costa Mesa,Adams Avenue,92626,CA,,,,1
 Sushi Sho,sushi,33.6569522,-117.9083884,,,,,,,,2
-Tacos Ayutla Oaxaca,mexican,33.7101905,-117.8676684,,South Main Street,,,Mo-Fr 19:00-02:00; Sa 19:00-3:00,,,1
+Tacos Ayutla Oaxaca,mexican,33.7101905,-117.8676684,,South Main Street,,,Mo-Fr 02:00-19:00; Sa 03:00-19:00,,,1
 Dino's,italian,33.7599505,-118.0181167,,,,,,,,2
 Lupita's Restaurant,salvadorian; mexican,33.6537565,-117.9185735,,,,,,,,1
 Katsuyaki,japanese,33.6537529,-117.9188521,,,,,,,,2

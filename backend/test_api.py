@@ -8,7 +8,6 @@ payload = {
     "lon": -117.84638,
     "cuisine": "mexican",
     "q": "tacos",
-    "current_time": "2025-01-02T12:00:00Z",
     "max_distance_miles": 100,
 }
 

@@ -6,6 +6,7 @@ import os
 import json
 import uuid
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 api = Flask(__name__)
 CORS(api)
@@ -20,8 +21,8 @@ def append_jsonl(path: str, record: dict) -> None:
         f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
 def now_utc_iso() -> str:
+    """Get the current time in UTC as an ISO 8601 string."""
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-
 
 @api.route("/recommend", methods=["POST"])
 def recommend():
@@ -31,8 +32,8 @@ def recommend():
     lon = data["lon"]
     cuisine = data.get("cuisine", None)
     q = data.get("q")
-    current_time = data.get("current_time")
     max_distance_miles = data.get("max_distance_miles")
+    current_time = datetime.now(ZoneInfo("America/Los_Angeles"))
 
     restaurants = load_data("data/new_restaurant_data.csv")
 
