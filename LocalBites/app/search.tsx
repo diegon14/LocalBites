@@ -17,6 +17,8 @@ import {
   type Preferences,
 } from "../src/storage/preferences";
 
+import * as Location from "expo-location";
+
 const QUICK_SUGGESTIONS = [
   "Tacos",
   "Sushi",
@@ -38,6 +40,39 @@ export default function SearchScreen() {
 
   const [query, setQuery] = useState("");
   const [recent, setRecent] = useState<string[]>([]);
+
+  const [locationName, setLocationName] = useState<string>("Current Location");
+  const [coords, setCoords] = useState<{ lat: Number; lng: number } | null>(
+    null,
+  );
+
+  useEffect(() => {
+    async function getInitialLocation() {
+      let { status } = await Location.requestForegroundPermissionsAsync();
+      if (status !== "granted") {
+        setLocationName("Location access denied");
+        return;
+      }
+
+      // Get current position
+      let loc = await Location.getCurrentPositionAsync({});
+      setCoords({ lat: loc.coords.latitude, lng: loc.coords.longitude });
+
+      // Reverse geocode to get a human-readable location name
+      let reverseGeocode = await Location.reverseGeocodeAsync({
+        latitude: loc.coords.latitude,
+        longitude: loc.coords.longitude,
+      });
+
+      if (reverseGeocode.length > 0) {
+        const { street, city, region } = reverseGeocode[0];
+        // Display a friendly location name like "Near Campus Dr, Irvine"
+        setLocationName(`Near ${street || "current area"}, ${city}`);
+      }
+    }
+
+    getInitialLocation();
+  }, []);
 
   useEffect(() => {
     let mounted = true;
@@ -130,6 +165,19 @@ export default function SearchScreen() {
           />
           <Pressable onPress={() => runSearch()} style={styles.searchButton}>
             <Text style={styles.searchButtonText}>Search</Text>
+          </Pressable>
+        </View>
+
+        {/* Location Indicator */}
+        <View style={styles.locationContainer}>
+          <Text style={styles.locationIcon}>📍</Text>
+          <Text style={styles.locationText}>{locationName}</Text>
+          <Pressable
+            onPress={() => {
+              /* Trigger re-fetch logic */
+            }}
+          >
+            <Text style={styles.refreshLink}>Refresh</Text>
           </Pressable>
         </View>
 
@@ -258,6 +306,17 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   searchButtonText: { color: "#fff", fontWeight: "800" },
+
+  locationContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingVertical: 8,
+    marginBottom: 10,
+    paddingHorizontal: 4,
+  },
+  locationIcon: { marginRight: 6, fontSize: 14 },
+  locationText: { flex: 1, color: "#444", fontSize: 13, fontWeight: "600" },
+  refreshLink: { color: "#007AFF", fontSize: 13, fontWeight: "700" },
 
   scrollContent: { paddingBottom: 18 },
 
