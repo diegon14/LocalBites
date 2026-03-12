@@ -9,6 +9,7 @@ payload = {
     "cuisine": "mexican",
     "q": "tacos",
     "max_distance_miles": 100,
+    "price range": 1
 }
 
 # POST request

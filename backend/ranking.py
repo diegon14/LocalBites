@@ -71,7 +71,7 @@ def filter_by_cuisine(ranked_restaurants, cuisine):
             filtered.append((r, dist))
     return filtered
 
-def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, q=None, current_time=None, max_distance_miles=None):
+def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, q=None, current_time=None, max_distance_miles=None, price_range=None):
     query_tokens = tokenize(q)
     ranked_restaurants = []
 

@@ -35,6 +35,8 @@ def recommend():
     max_distance_miles = data.get("max_distance_miles")
     current_time = datetime.now(ZoneInfo("America/Los_Angeles"))
 
+    price_range = data.get("price_range", None)
+
     restaurants = load_data("data/new_restaurant_data.csv")
 
     results = rank_restaurants(
@@ -45,6 +47,7 @@ def recommend():
         q=q,
         current_time=current_time,
         max_distance_miles=max_distance_miles,
+        price_range=price_range
     )
 
     formatted = []
@@ -55,6 +58,7 @@ def recommend():
             "lon": r["lon"],
             "cuisine": r.get("cuisine"),
             "distance_miles": round(dist, 2),
+            "price_range": r.get("price")
         })
 
     # log the search event (JSONL append). Auto-create history directory and file if not exist.
