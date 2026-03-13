@@ -1,7 +1,8 @@
 import csv 
-from datetime import datetime
 from geopy import distance
 import re
+
+from business_hours import *
 
 def tokenize(text: str):
     """Lowercase, split into alphanumeric tokens."""
@@ -34,12 +35,6 @@ def relevance_score(restaurant: dict, query_tokens: list[str]) -> int:
 def distance_in_miles(point1, point2):
     # given two points (lat, lon), returns the distance of the two points in miles
     return distance.distance(point1, point2).miles
-
-def is_open(hours, current_time):
-    # TODO
-    # parse time from csv to datetime and check 
-    # if opening hour fall into current time
-    raise NotImplementedError
 
 def load_data(csv_file):
     # takes in restaruant csv, cast coordinates to floats
@@ -81,8 +76,13 @@ def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, q=None, curr
         if max_distance_miles and dist > max_distance_miles:
             continue
 
-        # TODO if restuarant not open, do not include in ranking (not a valid choice for lunch)
+        if current_time:
+            # If restaurant has opening hours, check if open
+            if r.get("opening_hours") and r["opening_hours"].strip():
+                if not is_open(current_time, r["opening_hours"]):
+                    continue
     
+        # TODO implement price range to relevance score
         score = relevance_score(r, query_tokens)
         ranked_restaurants.append((r, dist, score))
 
@@ -109,5 +109,6 @@ def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, q=None, curr
 
 if __name__ == "__main__":
     restaurants = load_data("data/new_restaurant_data.csv")
-    results = rank_restaurants(restaurants, 33.64931, -117.84638, max_distance_miles=1) # uci coordinates for testing
+    # tested for is_open function
+    results = rank_restaurants(restaurants, 33.6768631, -117.886638, max_distance_miles=1)
     print(results)
