@@ -142,12 +142,6 @@ export default function SearchScreen() {
     router.push("/personalization");
   };
 
-  // Dev-only reset
-  const onResetOnboarding = async () => {
-    await resetPreferences();
-    router.replace("/personalization");
-  };
-
   if (loadingPrefs) {
     return (
       <SafeAreaView style={styles.safe}>
@@ -265,12 +259,6 @@ export default function SearchScreen() {
               <Text style={styles.resultBody}>{item.cuisine}</Text>
             </View>
           ))}
-
-          {/*DEV reset (remove later) */}
-          <Pressable onPress={onResetOnboarding} style={styles.devReset}>
-            <Text style={styles.devResetText}>DEV: Reset onbarding</Text>
-          </Pressable>
-
           <View style={{ height: 40 }} />
         </ScrollView>
       </View>
@@ -419,15 +407,4 @@ const styles = StyleSheet.create({
     lineHeight: 20,
     textTransform: "capitalize",
   },
-
-  devReset: {
-    marginTop: 18,
-    paddingVertical: 12,
-    alignItems: "center",
-    borderRadius: 14,
-    backgroundColor: "#ffecec",
-    borderWidth: 1,
-    borderColor: "#ffb3b3",
-  },
-  devResetText: { color: "#b00000", fontWeight: "900" },
 });
