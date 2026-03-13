@@ -32,6 +32,8 @@ const QUICK_SUGGESTIONS = [
   "Wings",
 ];
 
+const priceMap: Record<string, number> = { $: 1, $$: 2, $$$: 3, $$$$: 4 };
+
 export default function SearchScreen() {
   const router = useRouter();
 
@@ -40,6 +42,7 @@ export default function SearchScreen() {
 
   const [query, setQuery] = useState("");
   const [recent, setRecent] = useState<string[]>([]);
+  const [results, setResults] = useState<any[]>([]);
 
   const [locationName, setLocationName] = useState<string>("Current Location");
   const [coords, setCoords] = useState<{ lat: Number; lng: number } | null>(
@@ -97,21 +100,42 @@ export default function SearchScreen() {
     return `${prefs.priceRange} • up to ${prefs.maxDistanceMiles} mi • ${cuisines}`;
   }, [prefs]);
 
-  const runSearch = (text?: string) => {
+  const runSearch = async (text?: string) => {
     const q = (text ?? query).trim();
-    if (!q) return;
+    // Ensure we have location and preferences before searching
+    if (!q || !coords || !prefs) return;
 
-    // Prototype behasvior: store recent searches locally (in-memory)
-    setRecent((prev) => {
-      const next = [
-        q,
-        ...prev.filter((x) => x.toLowerCase() !== q.toLowerCase()),
-      ];
-      return next.slice(0, 8);
-    });
+    try {
+      const response = await fetch("http://127.0.0.1:5000/recommend", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          lat: coords.lat,
+          lon: coords.lng,
+          q: q,
+          cuisine: prefs.cuisines?.length ? prefs.cuisines[0] : null,
+          max_distance_miles: prefs.maxDistanceMiles,
+          price_range: priceMap[prefs.priceRange],
+        }),
+      });
 
-    // TODO: hook into ranking / API later
-    console.log("Searching for:", q, "with prefs:", prefs);
+      if (!response.ok) throw new Error("Server error");
+
+      const data = await response.json();
+      // Update results state with the ranked restaurants from api.py
+      setResults(data);
+
+      // Update recent searches locally
+      setRecent((prev) => {
+        const next = [
+          q,
+          ...prev.filter((x) => x.toLowerCase() !== q.toLowerCase()),
+        ];
+        return next.slice(0, 8);
+      });
+    } catch (error) {
+      console.error("Search failed:", error);
+    }
   };
 
   const onEditPreferences = () => {
@@ -222,18 +246,25 @@ export default function SearchScreen() {
             </>
           )}
 
-          {/* Placeholder results */}
+          {/* Results */}
           <Text style={[styles.sectionTitle, { marginTop: 18 }]}>Results</Text>
-          <View style={styles.resultCard}>
-            <Text style={styles.resultTitle}>Prototype placeholder</Text>
-            <Text style={styles.resultBody}>
-              Later, ranked restaurant cards will show up here based on:
-              {"\n"}• query text
-              {"\n"}• selected cuisines
-              {"\n"}• price range
-              {"\n"}• distance
-            </Text>
-          </View>
+          {results.map((item, index) => (
+            <View key={index} style={styles.resultCard}>
+              <View style={styles.resultHeader}>
+                <Text style={styles.resultTitle}>{item.name}</Text>
+                <View style={{ alignItems: "flex-end" }}>
+                  <Text style={styles.distanceTag}>
+                    {item.distance_miles} mi
+                  </Text>
+                  {/* New: Show the price range ($ or $$) returned by the API */}
+                  <Text style={styles.priceSubtext}>
+                    {"$".repeat(item.price_range)}
+                  </Text>
+                </View>
+              </View>
+              <Text style={styles.resultBody}>{item.cuisine}</Text>
+            </View>
+          ))}
 
           {/*DEV reset (remove later) */}
           <Pressable onPress={onResetOnboarding} style={styles.devReset}>
@@ -345,11 +376,49 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#eee",
     borderRadius: 16,
-    padding: 14,
+    padding: 16,
     backgroundColor: "#fff",
+    marginBottom: 12,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
+    elevation: 2,
   },
-  resultTitle: { fontWeight: "900", marginBottom: 8 },
-  resultBody: { color: "#444", lineHeight: 20 },
+  resultHeader: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    marginBottom: 6,
+  },
+  resultTitle: {
+    fontSize: 18,
+    fontWeight: "800",
+    flex: 1,
+    paddingRight: 8,
+  },
+  priceSubtext: {
+    fontSize: 12,
+    color: "#27ae60",
+    fontWeight: "bold",
+    marginTop: 4,
+  },
+  distanceTag: {
+    backgroundColor: "#f0f0f0",
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+    borderRadius: 8,
+    fontSize: 12,
+    fontWeight: "700",
+    color: "#444",
+    overflow: "hidden",
+  },
+  resultBody: {
+    color: "#666",
+    fontSize: 14,
+    lineHeight: 20,
+    textTransform: "capitalize",
+  },
 
   devReset: {
     marginTop: 18,
