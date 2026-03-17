@@ -1,36 +1,7 @@
 import csv 
 from geopy import distance
-import re
-
 from business_hours import *
-
-def tokenize(text: str):
-    """Lowercase, split into alphanumeric tokens."""
-    if not text:
-        return []
-    return re.findall(r"[a-z0-9]+", text.lower())
-
-def relevance_score(restaurant: dict, query_tokens: list[str]) -> int:
-    """
-    Simple scoring:
-    - Name match is strong
-    - Cuisine match is weaker
-    - Multiple tokens accumulate
-    """
-    if not query_tokens:
-        return 0
-
-    name_tokens = set(tokenize(restaurant.get("name", "")))
-    cuisine_tokens = set(tokenize(restaurant.get("cuisine", "")))
-
-    score = 0
-    for t in query_tokens:
-        if t in name_tokens:
-            score += 10
-        if t in cuisine_tokens:
-            score += 3
-
-    return score
+from scoring import *
 
 def distance_in_miles(point1, point2):
     # given two points (lat, lon), returns the distance of the two points in miles
@@ -49,66 +20,39 @@ def load_data(csv_file):
             restaurants.append(row)
     return restaurants
 
-def filter_by_cuisine(ranked_restaurants, cuisine):
-    """
-    ranked_restaurants: list of (restaurant_dict, dist)
-    cuisine: optional string
-    """
-    if not cuisine:
-        return ranked_restaurants
-
-    cuisine_lower = cuisine.strip().lower()
-    filtered = []
-    for r, dist in ranked_restaurants:
-        c = (r.get("cuisine") or "").lower()
-        # partial match so "mex" can match "Mexican", etc.
-        if cuisine_lower in c:
-            filtered.append((r, dist))
-    return filtered
 
 def rank_restaurants(restaurants, user_lat, user_lon, cuisine=None, q=None, current_time=None, max_distance_miles=None, price_range=None):
     query_tokens = tokenize(q)
     ranked_restaurants = []
 
     for r in restaurants:
-        # filter by max_distance before computing score to prevent unnecessary computation
+        # calculate max distance
         dist = distance_in_miles((user_lat, user_lon), (r["lat"], r["lon"]))
+        
+        # check if too far
         if max_distance_miles and dist > max_distance_miles:
             continue
 
+        # check if open
         if current_time:
-            # If restaurant has opening hours, check if open
             if r.get("opening_hours") and r["opening_hours"].strip():
                 if not is_open(current_time, r["opening_hours"]):
                     continue
+
+        dist_score = calculate_distance_score(dist, max_distance_miles)
+        price_score = calculate_price_score(r["price"], price_range)
+        text_boost = calculate_text_match_score(r, query_tokens)
+        cuisine_boost = calculate_cuisine_score(r.get("cuisine"), cuisine)
     
-        # TODO implement price range to relevance score
-        score = relevance_score(r, query_tokens)
+        score = dist_score * price_score * text_boost * cuisine_boost
         ranked_restaurants.append((r, dist, score))
-
-    # weighted score based on: distance, and cuisine preference
-    # Filter by cuisine AFTER computing distance/score
-    # TODO remove cuisine filter and inclue cuisine in revelance scoring
-    if cuisine:
-        cuisine_lower = cuisine.strip().lower()
-        ranked_restaurants = [
-            (r, dist, score)
-            for (r, dist, score) in ranked_restaurants
-            if cuisine_lower in (r.get("cuisine") or "").lower()
-        ]
-
-    # If q is provided, sort by (score desc, distance asc). Otherwise distance only.
-    if query_tokens:
-        ranked_restaurants.sort(key=lambda x: (-x[2], x[1]))
-    else:
-        ranked_restaurants.sort(key=lambda x: x[1])
     
-    # Return (restaurant, dist) pairs to match api.py format. hides score
+    # Return top 15 results (restaurant, dist)
+    ranked_restaurants.sort(key=lambda x: -x[2])
     return [(r, dist) for (r, dist, score) in ranked_restaurants[:15]]
         
 
 if __name__ == "__main__":
     restaurants = load_data("data/new_restaurant_data.csv")
-    # tested for is_open function
-    results = rank_restaurants(restaurants, 33.6768631, -117.886638, max_distance_miles=1)
+    results = rank_restaurants(restaurants, 33.6430, -117.8412)
     print(results)
