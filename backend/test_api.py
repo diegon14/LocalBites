@@ -7,7 +7,7 @@ payload = {
     "lat": 33.64931,
     "lon": -117.84638,
     "cuisine": "mexican",
-    "q": "tacos",
+    "q": "taos",
     "max_distance_miles": 100,
     "price range": 1
 }

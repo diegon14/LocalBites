@@ -45,6 +45,50 @@ def tokenize(text: str):
         return []
     return re.findall(r"[a-z0-9]+", text.lower())
 
+def _levenshtein(a: str, b: str) -> int:
+    """Compute the Levenshtein (edit) distance between two strings."""
+    if a == b:
+        return 0
+    if not a:
+        return len(b)
+    if not b:
+        return len(a)
+    # Use two-row DP for memory efficiency
+    prev = list(range(len(b) + 1))
+    curr = [0] * (len(b) + 1)
+    for i, ca in enumerate(a, 1):
+        curr[0] = i
+        for j, cb in enumerate(b, 1):
+            cost = 0 if ca == cb else 1
+            curr[j] = min(prev[j] + 1, curr[j - 1] + 1, prev[j - 1] + cost)
+        prev, curr = curr, prev
+    return prev[len(b)]
+
+def _fuzzy_match_score(query_token: str, candidate_tokens: set[str]) -> float:
+    """
+    Return a similarity score [0.0, 1.0] for the best match between a query
+    token and a set of candidate tokens.
+ 
+    Scoring tiers:
+      1.0  — exact match
+      0.85 — one edit away  (good for typos, e.g. "burgr" → "burger")
+      0.6  — two edits away (allowed only for longer words, len >= 6)
+      0.0  — no close match
+    """
+    if query_token in candidate_tokens:
+        return 1.0
+ 
+    best = 0.0
+    qt_len = len(query_token)
+    for ct in candidate_tokens:
+        dist = _levenshtein(query_token, ct)
+        if dist == 1:
+            best = max(best, 0.85)
+        elif dist == 2 and qt_len >= 6:
+            best = max(best, 0.6)
+        if best == 1.0:
+            break  # can't do better
+    return best
 
 def calculate_text_match_score(restaurant: dict, query_tokens: list[str]) -> float:
     """
@@ -57,17 +101,16 @@ def calculate_text_match_score(restaurant: dict, query_tokens: list[str]) -> flo
     name_tokens = set(tokenize(restaurant.get("name", "")))
     cuisine_tokens = set(tokenize(restaurant.get("cuisine", "")))
     
-    # Count matches in name and cuisine
-    name_matches = sum(1 for t in query_tokens if t in name_tokens)
-    cuisine_matches = sum(1 for t in query_tokens if t in cuisine_tokens)
+    name_score = 0.0
+    cuisine_score = 0.0
     
-    # Calculate boost (max 2.0x for strong matches)
-    boost = 1.0
-    if name_matches > 0:
-        boost += min(0.5 * name_matches, 0.8)  # Up to 0.8x boost from name
-    if cuisine_matches > 0:
-        boost += min(0.2 * cuisine_matches, 0.3)  # Up to 0.3x boost from cuisine
-    
+    for qt in query_tokens:
+        name_sim = _fuzzy_match_score(qt, name_tokens)
+        cuisine_sim = _fuzzy_match_score(qt, cuisine_tokens)
+        name_score += 0.5 * name_sim
+        cuisine_score += 0.2 * cuisine_sim
+
+    boost = 1.0 + min(name_score, 0.8) + min(cuisine_score, 0.3)
     return min(boost, 2.0)
 
 def calculate_cuisine_score(restaurant_cuisine: str, preferred_cuisine: str) -> float:
