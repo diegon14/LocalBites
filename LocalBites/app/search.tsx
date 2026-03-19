@@ -50,6 +50,13 @@ export default function SearchScreen() {
   );
 
   useEffect(() => {
+    // Trigger an initial search once we have the necessary context
+    if (coords && prefs) {
+      runSearch("");
+    }
+  }, [coords, prefs]);
+
+  useEffect(() => {
     async function getInitialLocation() {
       let { status } = await Location.requestForegroundPermissionsAsync();
       if (status !== "granted") {
@@ -103,7 +110,7 @@ export default function SearchScreen() {
   const runSearch = async (text?: string) => {
     const q = (text ?? query).trim();
     // Ensure we have location and preferences before searching
-    if (!q || !coords || !prefs) return;
+    if (!coords || !prefs) return;
 
     try {
       const response = await fetch("http://127.0.0.1:5000/recommend", {
@@ -112,7 +119,7 @@ export default function SearchScreen() {
         body: JSON.stringify({
           lat: coords.lat,
           lon: coords.lng,
-          q: q,
+          q: q || null,
           cuisine: prefs.cuisines?.length ? prefs.cuisines[0] : null,
           max_distance_miles: prefs.maxDistanceMiles,
           price_range: priceMap[prefs.priceRange],
@@ -125,14 +132,16 @@ export default function SearchScreen() {
       // Update results state with the ranked restaurants from api.py
       setResults(data);
 
-      // Update recent searches locally
-      setRecent((prev) => {
-        const next = [
-          q,
-          ...prev.filter((x) => x.toLowerCase() !== q.toLowerCase()),
-        ];
-        return next.slice(0, 8);
-      });
+      // Only update "recent searches" if there was an actual query text
+      if (q) {
+        setRecent((prev) => {
+          const next = [
+            q,
+            ...prev.filter((x) => x.toLowerCase() !== q.toLowerCase()),
+          ];
+          return next.slice(0, 8);
+        });
+      }
     } catch (error) {
       console.error("Search failed:", error);
     }
